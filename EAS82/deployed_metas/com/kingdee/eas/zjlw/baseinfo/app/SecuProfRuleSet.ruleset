@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleSet xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.baseinfo.app</package>
+    <name>SecuProfRuleSet</name>
+    <alias>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].alias</alias>
+    <description>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].description</description>
+    <userDefined>true</userDefined>
+    <expressions>
+        <groupExpression>
+            <id>0fed1ec6-f7be-4315-be37-ff4df3177ea5</id>
+            <parentID />
+            <source>projNamef=projName.simpleName</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>80843244-5f50-4990-92da-2b4cde0f403b</id>
+            <parentID>0fed1ec6-f7be-4315-be37-ff4df3177ea5</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>String</valueType>
+            <value />
+            <property>
+                <ownerID>4afd9a60-dd81-4c19-acf9-b997131e556e</ownerID>
+                <name>text</name>
+                <type>java.lang.String</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>4afd9a60-dd81-4c19-acf9-b997131e556e</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>txtprojNamef</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>553cfc73-f92c-4f1c-9d35-2903d8a25329</id>
+            <parentID>0fed1ec6-f7be-4315-be37-ff4df3177ea5</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>String</valueType>
+            <value />
+            <method>
+                <ownerID>52dd10fa-b1f0-4c16-89d8-447108bc63cb</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>ccca6db1-baf3-42d2-bcc8-38aa4dc4dbbc</id>
+                        <expressionID>853faf06-b901-41cf-9607-f92538dc3fc3</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>f05170d2-6809-4aad-9fc1-f2f65af5bc2a</id>
+                        <expressionID>c26f55d1-b6f5-49d0-8d60-df5531c3413e</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>52dd10fa-b1f0-4c16-89d8-447108bc63cb</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>853faf06-b901-41cf-9607-f92538dc3fc3</id>
+            <parentID />
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>Object</valueType>
+            <value />
+            <method>
+                <ownerID>a894241c-3702-4a36-8252-bb0e96626ef4</ownerID>
+                <name>getData</name>
+                <type>Object</type>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>a894241c-3702-4a36-8252-bb0e96626ef4</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)prmtprojName</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>c26f55d1-b6f5-49d0-8d60-df5531c3413e</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>simpleName</value>
+        </simpleExpression>
+    </expressions>
+    <actions>
+        <action>
+            <id>5deddcae-c336-4563-9563-76e57d8ce78b</id>
+            <name>SecuProf_projNamef_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].actions.action[SecuProf_projNamef_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].actions.action[SecuProf_projNamef_ActionInfo].description</description>
+            <expressionID>0fed1ec6-f7be-4315-be37-ff4df3177ea5</expressionID>
+        </action>
+    </actions>
+    <rules>
+        <conditionRule>
+            <name>SecuProf_projNamef_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].rules.conditionRule[SecuProf_projNamef_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].rules.conditionRule[SecuProf_projNamef_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="5deddcae-c336-4563-9563-76e57d8ce78b" />
+                </action>
+            </actions>
+        </conditionRule>
+    </rules>
+    <resource>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].actions.action[SecuProf_projNamef_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_simpleName" />
+            <lang locale="zh_HK" value="攜帶字段屬性_simpleName" />
+            <lang locale="zh_TW" value="攜帶字段屬性_simpleName" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].actions.action[SecuProf_projNamef_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].rules.conditionRule[SecuProf_projNamef_RuleInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_simpleName" />
+            <lang locale="zh_HK" value="攜帶字段屬性_simpleName" />
+            <lang locale="zh_TW" value="攜帶字段屬性_simpleName" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].rules.conditionRule[SecuProf_projNamef_RuleInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].rules.conditionRule[SecuProf_projNamef_RuleInfo].extendedProperty.columnName">
+            <lang locale="en_US" value="projName" />
+            <lang locale="zh_CN" value="projName" />
+            <lang locale="zh_TW" value="projName" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.SecuProfRuleSet].rules.conditionRule[SecuProf_projNamef_RuleInfo].extendedProperty.userDefined">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</ruleSet>
+

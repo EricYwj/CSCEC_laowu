@@ -1,0 +1,3170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.personmess.app</package>
+    <name>BusinessVisaQuery</name>
+    <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.zjlw.personmess.BusinessVisa</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>BusinessVisa</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[BusinessVisa].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisa" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaEntry" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys_cooperation</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys_cooperation].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys_handleProject</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys_handleProject].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys_workProgram</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys_workProgram].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys_national</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys_national].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Country" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[auditor.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[handler.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[handler.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.seq</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.seq].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.seq" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="seq" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit7</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit6</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Fivouchered</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[Fivouchered].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="Fivouchered" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Fivouchered" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8aed52f0-81e6-465e-9eba-2f7f40f32a11</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.lastName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.lastName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d9aa55df-e1aa-4572-bb53-e87037d2d5ed</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.lastName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.firstName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.firstName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ab68cff8-22ef-4115-abc2-2518d11c51cd</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.firstName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="firstName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.sex</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.sex].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bbbb33b4-5412-475d-8417-c98b298607c0</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.sex" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="sex" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.birthdate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthdate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f3cc87b4-9afb-44f6-9290-3038de1eb081</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.birthdate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="birthdate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.birthPlaceCn</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthPlaceCn].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7e0a4ffa-66bf-45fc-9b73-769d33e0ae6c</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.birthPlaceCn" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="birthPlaceCn" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.passportNo</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b4fb06d5-04af-419d-a036-4f7daf81fad8</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.passportNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.passportIssueDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportIssueDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2add9f68-bf66-410e-84f4-01a3e7b029b1</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.passportIssueDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportIssueDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.passportExpireDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportExpireDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>292e6bfd-70b5-4ee7-8f77-2eb60011854e</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.passportExpireDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportExpireDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.coupleName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.coupleName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>04886fac-cdb7-4ae0-b843-c108b9916ba4</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.coupleName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="coupleName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.contacts</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.contacts].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c4629d11-70a3-469b-8981-683eb2faf711</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.contacts" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="contacts" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.contactway</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.contactway].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7a437701-17a7-48cd-b63e-09375d2f32a4</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.contactway" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="contactway" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.arrivalTime</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.arrivalTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>336b2761-bb16-4879-b9ca-6467580c7258</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.arrivalTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="arrivalTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.residenceTime</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.residenceTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d4b3fde5-b02e-4472-9f41-88ba1fd9041d</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.residenceTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="residenceTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.cooperation.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.cooperation.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>776e7b32-758d-437a-aac7-5714fe085903</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.cooperation.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_cooperation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>05f7fea9-b7a1-4411-b959-eb6bbb649f47</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[05f7fea9-b7a1-4411-b959-eb6bbb649f47].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>33852e9f-8e2d-4ecc-8ef6-d9385ed2c080</key>
+                    <parentUnit>
+                        <key name="name" value="05f7fea9-b7a1-4411-b959-eb6bbb649f47" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cooperation" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a02a4b36-e00e-4173-bf90-f739d95f8ce5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[a02a4b36-e00e-4173-bf90-f739d95f8ce5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>49f0ad47-6d9d-48ca-908d-1ce2be7fc89b</key>
+                    <parentUnit>
+                        <key name="name" value="a02a4b36-e00e-4173-bf90-f739d95f8ce5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_cooperation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.handleProject.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.handleProject.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d7aa55d0-5fd0-4bc2-b084-8615ec3bad0e</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.handleProject.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_handleProject" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>650c4143-22b3-4cb6-9514-4c7890ba2074</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[650c4143-22b3-4cb6-9514-4c7890ba2074].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>b9c930d9-885a-475d-9f9b-f1ca9d7569f3</key>
+                    <parentUnit>
+                        <key name="name" value="650c4143-22b3-4cb6-9514-4c7890ba2074" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handleProject" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>db0bf717-d89e-45d7-ba56-576efca45e1d</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[db0bf717-d89e-45d7-ba56-576efca45e1d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>7667420b-18e3-4438-9537-ab9ea59d5197</key>
+                    <parentUnit>
+                        <key name="name" value="db0bf717-d89e-45d7-ba56-576efca45e1d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_handleProject" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>bNum</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[bNum].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f22bcabe-e7eb-4e5e-af4e-2560b98c7514</key>
+                    <parentUnit>
+                        <key name="name" value="bNum" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bNum" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[auditDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5d64a333-404a-4443-b06c-6ddf135728e1</key>
+                    <parentUnit>
+                        <key name="name" value="auditDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.idNum</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.idNum].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>24b5c2fc-0985-45c1-9a9c-17bf3e264134</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.idNum" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="idNum" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.fatherName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.fatherName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d00965ce-432c-4d43-8728-8f1a00d15ec3</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.fatherName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="fatherName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.motherName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.motherName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3dc106da-42c9-4505-a5d7-b1edbbe0ba27</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.motherName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="motherName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>billSate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[billSate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e22c0109-1ef3-4108-aa26-a14a71224cbe</key>
+                    <parentUnit>
+                        <key name="name" value="billSate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="BusinessVisa" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="billSate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.workProgram.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.workProgram.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cd4ce746-97a0-46cf-8049-62f90544a36e</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.workProgram.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_workProgram" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>3e881423-757e-432f-8aeb-393360e460df</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[3e881423-757e-432f-8aeb-393360e460df].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>73d3ef13-2c7c-4571-b8bd-f8709e0ecb82</key>
+                    <parentUnit>
+                        <key name="name" value="3e881423-757e-432f-8aeb-393360e460df" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="workProgram" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>d55f0452-5879-4a94-9898-fe95d6226abb</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[d55f0452-5879-4a94-9898-fe95d6226abb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>69ff68e7-8cad-4fe0-b7e4-b90580e7ce9a</key>
+                    <parentUnit>
+                        <key name="name" value="d55f0452-5879-4a94-9898-fe95d6226abb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_workProgram" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.national.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.national.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>22540f23-b7e0-430d-9c15-3982a546750d</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.national.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_national" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>b2491fc9-4413-4c1e-8e8f-76358860097e</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[b2491fc9-4413-4c1e-8e8f-76358860097e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>3213da57-2963-4462-ad4e-e2953d79aabf</key>
+                    <parentUnit>
+                        <key name="name" value="b2491fc9-4413-4c1e-8e8f-76358860097e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="national" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>e48b2dae-5ec4-47d0-a345-6dc0df7d40a5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[e48b2dae-5ec4-47d0-a345-6dc0df7d40a5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>f10f906c-5d34-49f2-8f88-25ba60d99ff7</key>
+                    <parentUnit>
+                        <key name="name" value="e48b2dae-5ec4-47d0-a345-6dc0df7d40a5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_national" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.passportAgence</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportAgence].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6f268c68-3a57-4c6a-9fff-f8374085560f</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.passportAgence" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportAgence" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.birthPlaceFr</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthPlaceFr].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5a972825-ffeb-458e-b4cf-b0142590cd6e</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.birthPlaceFr" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="birthPlaceFr" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+            <key name="name" value="BusinessVisaQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+        <querySorterItem>
+            <propertyName>entrys.seq</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+            <queryField>
+                <key name="name" value="entrys.id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="BusinessVisa" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="BusinessVisa" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="BusinessVisa" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin3</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="BusinessVisa" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit7" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit6" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin3" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="BusinessVisa" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+        <join>
+            <name>a2554387-cab9-4b0a-adff-5d02706c2b59</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys_cooperation" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>76a4e56d-d35c-4bc9-a73d-ec77c5ad0976</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="05f7fea9-b7a1-4411-b959-eb6bbb649f47" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="a02a4b36-e00e-4173-bf90-f739d95f8ce5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="a2554387-cab9-4b0a-adff-5d02706c2b59" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+        <join>
+            <name>de182026-c244-4367-85a0-2bedc42b1511</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys_handleProject" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>bc770cb9-967f-4264-b9db-1f35f4d88b53</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="650c4143-22b3-4cb6-9514-4c7890ba2074" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="db0bf717-d89e-45d7-ba56-576efca45e1d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="de182026-c244-4367-85a0-2bedc42b1511" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+        <join>
+            <name>73dd38d6-4889-4085-899f-f90fd39dea1b</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys_workProgram" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>aa4a1e18-15c1-4952-99b6-45d8d42ef23c</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="3e881423-757e-432f-8aeb-393360e460df" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="d55f0452-5879-4a94-9898-fe95d6226abb" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="73dd38d6-4889-4085-899f-f90fd39dea1b" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+        <join>
+            <name>1d9435c3-e0a2-435e-a804-c11e9f710b2f</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys_national" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>fb12f8f1-f3f6-480f-b75e-06bb76909f20</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b2491fc9-4413-4c1e-8e8f-76358860097e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="e48b2dae-5ec4-47d0-a345-6dc0df7d40a5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="1d9435c3-e0a2-435e-a804-c11e9f710b2f" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personmess.app" />
+                <key name="name" value="BusinessVisaQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="商务签信息录入" />
+            <lang locale="zh_HK" value="商務簽信息錄入" />
+            <lang locale="zh_TW" value="商務簽信息錄入" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="多分录基础单据模板" />
+            <lang locale="zh_CN" value="多分录基础单据模板" />
+            <lang locale="zh_TW" value="多分录基础单据模板" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多分录基础单据查询" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢" />
+            <lang locale="zh_TW" value="多分錄基礎單據查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.zjlw.personmess.client.PersonmessResource.BusinessVisaQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.zjlw.personmess.client.PersonmessResource.BusinessVisaQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.zjlw.personmess.client.PersonmessResource.BusinessVisaQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="外籍员工商务签信息录入" />
+            <lang locale="zh_CN" value="外籍员工商务签信息录入" />
+            <lang locale="zh_TW" value="外籍员工商务签信息录入" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[BusinessVisa].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys_cooperation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys_handleProject].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys_national].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[entrys_workProgram].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[handler].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[05f7fea9-b7a1-4411-b959-eb6bbb649f47].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[3e881423-757e-432f-8aeb-393360e460df].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[650c4143-22b3-4cb6-9514-4c7890ba2074].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit6].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit7].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[a02a4b36-e00e-4173-bf90-f739d95f8ce5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[b2491fc9-4413-4c1e-8e8f-76358860097e].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[d55f0452-5879-4a94-9898-fe95d6226abb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[db0bf717-d89e-45d7-ba56-576efca45e1d].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.propertyUnit[e48b2dae-5ec4-47d0-a345-6dc0df7d40a5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[Fivouchered].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[Fivouchered].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[Fivouchered].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[auditDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[auditDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[auditDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[auditor.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[auditor.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[bNum].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签批次号" />
+            <lang locale="zh_HK" value="返簽批次號" />
+            <lang locale="zh_TW" value="返簽批次號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[bNum].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[bNum].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[billSate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[billSate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[billSate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[bizDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.arrivalTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="预计来阿时间" />
+            <lang locale="zh_HK" value="預計來阿時間" />
+            <lang locale="zh_TW" value="預計來阿時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.arrivalTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.arrivalTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthPlaceCn].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生地" />
+            <lang locale="zh_HK" value="出生地" />
+            <lang locale="zh_TW" value="出生地" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthPlaceCn].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthPlaceCn].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthPlaceFr].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生地(法文)" />
+            <lang locale="zh_HK" value="出生地(法文)" />
+            <lang locale="zh_TW" value="出生地(法文)" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthPlaceFr].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthPlaceFr].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthdate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生日期" />
+            <lang locale="zh_HK" value="出生日期" />
+            <lang locale="zh_TW" value="出生日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthdate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.birthdate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.contacts].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内联系人" />
+            <lang locale="zh_HK" value="國內聯繫人" />
+            <lang locale="zh_TW" value="國內聯繫人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.contacts].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.contacts].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.contactway].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="联系方式" />
+            <lang locale="zh_HK" value="聯繫方式" />
+            <lang locale="zh_TW" value="聯繫方式" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.contactway].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.contactway].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.cooperation.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合作单位" />
+            <lang locale="zh_HK" value="合作單位" />
+            <lang locale="zh_TW" value="合作單位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.cooperation.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.cooperation.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.cooperation.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.coupleName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶姓名" />
+            <lang locale="zh_HK" value="配偶姓名" />
+            <lang locale="zh_TW" value="配偶姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.coupleName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.coupleName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.fatherName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父亲姓名" />
+            <lang locale="zh_HK" value="父親姓名" />
+            <lang locale="zh_TW" value="父親姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.fatherName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.fatherName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.firstName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名拼音" />
+            <lang locale="zh_HK" value="名拼音" />
+            <lang locale="zh_TW" value="名拼音" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.firstName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.firstName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.handleProject.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="办理项目" />
+            <lang locale="zh_HK" value="辦理項目" />
+            <lang locale="zh_TW" value="辦理項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.handleProject.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.handleProject.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.handleProject.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.idNum].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="身份证号" />
+            <lang locale="zh_HK" value="身份證號" />
+            <lang locale="zh_TW" value="身份證號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.idNum].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.idNum].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.lastName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓拼音" />
+            <lang locale="zh_HK" value="姓拼音" />
+            <lang locale="zh_TW" value="姓拼音" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.lastName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.lastName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.motherName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="母亲姓名" />
+            <lang locale="zh_HK" value="母親姓名" />
+            <lang locale="zh_TW" value="母親姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.motherName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.motherName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓名" />
+            <lang locale="zh_HK" value="姓名" />
+            <lang locale="zh_TW" value="姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.national.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国籍" />
+            <lang locale="zh_HK" value="國籍" />
+            <lang locale="zh_TW" value="國籍" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.national.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.national.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.national.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportAgence].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照颁发机构" />
+            <lang locale="zh_HK" value="護照頒發機構" />
+            <lang locale="zh_TW" value="護照頒發機構" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportAgence].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportAgence].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportExpireDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照失效日期" />
+            <lang locale="zh_HK" value="護照失效日期" />
+            <lang locale="zh_TW" value="護照失效日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportExpireDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportExpireDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportIssueDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发日期" />
+            <lang locale="zh_HK" value="護照簽發日期" />
+            <lang locale="zh_TW" value="護照簽發日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportIssueDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportIssueDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportNo].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照号" />
+            <lang locale="zh_HK" value="護照號" />
+            <lang locale="zh_TW" value="護照號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportNo].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.passportNo].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.residenceTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="预计停留时间" />
+            <lang locale="zh_HK" value="預計停留時間" />
+            <lang locale="zh_TW" value="預計停留時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.residenceTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.residenceTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.seq].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.seq].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.seq].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.sex].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性别" />
+            <lang locale="zh_HK" value="性別" />
+            <lang locale="zh_TW" value="性別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.sex].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.sex].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.workProgram.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工作项目" />
+            <lang locale="zh_HK" value="工作項目" />
+            <lang locale="zh_TW" value="工作項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.workProgram.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.workProgram.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[entrys.workProgram.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[handler.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[handler.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personmess.app.BusinessVisaQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

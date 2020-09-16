@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.certificates.app</package>
+    <name>BillStateEnum</name>
+    <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.zjlw.certificates.app.BillStateEnum</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>NEW</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[NEW].alias</alias>
+            <userDefined>true</userDefined>
+            <value>10</value>
+        </enumValue>
+        <enumValue>
+            <name>DRAFT</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[DRAFT].alias</alias>
+            <userDefined>true</userDefined>
+            <value>20</value>
+        </enumValue>
+        <enumValue>
+            <name>SUBMIT</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[SUBMIT].alias</alias>
+            <userDefined>true</userDefined>
+            <value>30</value>
+        </enumValue>
+        <enumValue>
+            <name>CHECKED</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[CHECKED].alias</alias>
+            <userDefined>true</userDefined>
+            <value>40</value>
+        </enumValue>
+        <enumValue>
+            <name>CHECKING</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[CHECKING].alias</alias>
+            <userDefined>true</userDefined>
+            <value>50</value>
+        </enumValue>
+        <enumValue>
+            <name>CHECKFAILD</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[CHECKFAILD].alias</alias>
+            <userDefined>true</userDefined>
+            <value>60</value>
+        </enumValue>
+        <enumValue>
+            <name>DSTRY</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[DSTRY].alias</alias>
+            <userDefined>true</userDefined>
+            <value>70</value>
+        </enumValue>
+        <enumValue>
+            <name>LEAVE</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[LEAVE].alias</alias>
+            <userDefined>true</userDefined>
+            <value>80</value>
+        </enumValue>
+        <enumValue>
+            <name>ANTI</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[ANTI].alias</alias>
+            <userDefined>true</userDefined>
+            <value>90</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[ANTI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反签办理" />
+            <lang locale="zh_HK" value="反簽辦理" />
+            <lang locale="zh_TW" value="反簽辦理" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[CHECKED].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过" />
+            <lang locale="zh_HK" value="審核通過" />
+            <lang locale="zh_TW" value="審核通過" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[CHECKFAILD].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核未通过" />
+            <lang locale="zh_HK" value="審核未通過" />
+            <lang locale="zh_TW" value="審核未通過" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[CHECKING].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核中" />
+            <lang locale="zh_HK" value="審核中" />
+            <lang locale="zh_TW" value="審核中" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[DRAFT].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="暂存" />
+            <lang locale="zh_HK" value="暫存" />
+            <lang locale="zh_TW" value="暫存" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[DSTRY].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已注销" />
+            <lang locale="zh_HK" value="已註銷" />
+            <lang locale="zh_TW" value="已註銷" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[LEAVE].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已离境" />
+            <lang locale="zh_HK" value="已離境" />
+            <lang locale="zh_TW" value="已離境" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[NEW].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单" />
+            <lang locale="zh_HK" value="制單" />
+            <lang locale="zh_TW" value="制單" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.certificates.app.BillStateEnum].enumValues.enumValue[SUBMIT].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已提交" />
+            <lang locale="zh_HK" value="已提交" />
+            <lang locale="zh_TW" value="已提交" />
+        </rs>
+    </resource>
+</bizEnum>
+

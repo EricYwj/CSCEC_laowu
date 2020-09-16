@@ -1,0 +1,2627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.social.app</package>
+    <name>ForiPayrollQuery</name>
+    <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.zjlw.social.ForiPayroll</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>ForiPayroll</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[ForiPayroll].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayroll" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>projName</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[projName].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>monthYearr</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[monthYearr].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Period" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>securityProj</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[securityProj].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>porjNum</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[porjNum].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.zjlw.baseinfo.app" />
+                <key name="name" value="ProjectOrg" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[auditor.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[handler.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[handler.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Fivouchered</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[Fivouchered].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="Fivouchered" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Fivouchered" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>billSate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[billSate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ee0da50c-6420-44a9-bcfc-a7e76208147a</key>
+                    <parentUnit>
+                        <key name="name" value="billSate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="billSate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>AuditDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[AuditDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c3f13ffd-9a61-43f3-8278-6a5232a93ff6</key>
+                    <parentUnit>
+                        <key name="name" value="AuditDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="AuditDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>projName.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projName.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>27ec417c-a944-42dc-ae4e-22adf3eccb77</key>
+                    <parentUnit>
+                        <key name="name" value="projName.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="projName" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>0cb2c716-0e3a-429f-bef7-c6f9d1b2b577</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[0cb2c716-0e3a-429f-bef7-c6f9d1b2b577].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>756cd5f7-7b85-4508-a7c8-7887e9893514</key>
+                    <parentUnit>
+                        <key name="name" value="0cb2c716-0e3a-429f-bef7-c6f9d1b2b577" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="projName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>5c112494-7be0-414c-ab0c-ac3c59748b81</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[5c112494-7be0-414c-ab0c-ac3c59748b81].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>ede7c8d8-6727-4e60-9348-91de2f50ff73</key>
+                    <parentUnit>
+                        <key name="name" value="5c112494-7be0-414c-ab0c-ac3c59748b81" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="projName" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>projSCNum</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projSCNum].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>54fcfecb-a5d8-4321-a34f-c60ca88c8c7e</key>
+                    <parentUnit>
+                        <key name="name" value="projSCNum" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="projSCNum" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.number</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>29589cf0-274c-4400-a214-d4903f563a4b</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>b8a5adf6-cced-402d-9d9e-105977899f6a</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[b8a5adf6-cced-402d-9d9e-105977899f6a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>dc047f70-bc2e-424a-8f94-e2522504c065</key>
+                    <parentUnit>
+                        <key name="name" value="b8a5adf6-cced-402d-9d9e-105977899f6a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="monthYearr" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>4a20cd92-fc3c-43c6-8068-f2f489b4b03d</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[4a20cd92-fc3c-43c6-8068-f2f489b4b03d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>647cc91d-a49f-49f9-8d45-3f126f883d99</key>
+                    <parentUnit>
+                        <key name="name" value="4a20cd92-fc3c-43c6-8068-f2f489b4b03d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>securityProj.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[securityProj.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>18406a77-6961-43b9-b2d2-3fb4cbb60e83</key>
+                    <parentUnit>
+                        <key name="name" value="securityProj.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="securityProj" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>56835f7b-d0d9-4970-8a89-614d6fe31310</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[56835f7b-d0d9-4970-8a89-614d6fe31310].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>ace03886-5a89-4caf-aaa0-7b20456d839c</key>
+                    <parentUnit>
+                        <key name="name" value="56835f7b-d0d9-4970-8a89-614d6fe31310" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="securityProj" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>52c3fe9d-330f-4866-930a-d5072e4db02a</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[52c3fe9d-330f-4866-930a-d5072e4db02a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>a90e1c48-ee45-4a28-8841-7df3532095c7</key>
+                    <parentUnit>
+                        <key name="name" value="52c3fe9d-330f-4866-930a-d5072e4db02a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="securityProj" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>isOK</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[isOK].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>45fbaa40-ed01-4ab2-93df-e4e0b3d6e9d9</key>
+                    <parentUnit>
+                        <key name="name" value="isOK" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isOK" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>acountRow</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[acountRow].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7a743261-b591-4767-be77-b57c967feebd</key>
+                    <parentUnit>
+                        <key name="name" value="acountRow" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="acountRow" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>projAddress</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projAddress].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8252eb2a-56b7-4ca1-9ee9-de69968d61fe</key>
+                    <parentUnit>
+                        <key name="name" value="projAddress" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ForiPayroll" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="projAddress" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>c07a2b4b-a18f-4ee5-b24b-0c1fec2dd929</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[c07a2b4b-a18f-4ee5-b24b-0c1fec2dd929].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e78542e5-71dd-4144-a774-e93767822068</key>
+                    <parentUnit>
+                        <key name="name" value="c07a2b4b-a18f-4ee5-b24b-0c1fec2dd929" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="projName" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>0b07e647-9863-461d-b137-ee984b76dc2a</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[0b07e647-9863-461d-b137-ee984b76dc2a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5a2ccd3c-256c-48b6-9dcc-1d75491aee3f</key>
+                    <parentUnit>
+                        <key name="name" value="0b07e647-9863-461d-b137-ee984b76dc2a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="porjNum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="proCom" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>porjNum.nameFR</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[porjNum.nameFR].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>154a3fcd-5fbd-4bf9-8c96-2016f697a9c1</key>
+                    <parentUnit>
+                        <key name="name" value="porjNum.nameFR" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="porjNum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="nameFR" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>porjNum.addressFR</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[porjNum.addressFR].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bbe1f10e-b8f1-4156-a984-7b4cc7cce598</key>
+                    <parentUnit>
+                        <key name="name" value="porjNum.addressFR" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="porjNum" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="addressFR" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>73c0d2ca-9065-4d62-996d-acbf543a8d01</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[73c0d2ca-9065-4d62-996d-acbf543a8d01].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cdb2c17b-41d1-41fb-84a6-1e683c3a8131</key>
+                    <parentUnit>
+                        <key name="name" value="73c0d2ca-9065-4d62-996d-acbf543a8d01" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="projName" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.periodYear</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.periodYear].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>67eb1265-7fd3-477c-9a12-a0f05e021ea0</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.periodYear" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="periodYear" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.periodQuarter</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.periodQuarter].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1a92d4c5-56b7-4b3e-8ef3-1bc52a0b564d</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.periodQuarter" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="periodQuarter" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.periodNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.periodNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5bd8deec-5179-45c9-ba2f-7a2bff4eb15c</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.periodNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="periodNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.beginDate</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.beginDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3464981b-8c31-4612-9601-fc2b590a2b36</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.beginDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="beginDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.endDate</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.endDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2473b54c-e4a5-485d-abe2-a7c70454532a</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.endDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="endDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.isAdjustPeriod</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.isAdjustPeriod].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d8e057c3-54e7-42e9-b933-546a8e79ac49</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.isAdjustPeriod" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isAdjustPeriod" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>f6a3f02e-1900-44b4-9675-717584781ab4</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[f6a3f02e-1900-44b4-9675-717584781ab4].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>73fc159b-10eb-4215-881d-0f02f0de1991</key>
+                    <parentUnit>
+                        <key name="name" value="f6a3f02e-1900-44b4-9675-717584781ab4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ebbde347-5371-46f1-8939-b5b13f8351a9</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d6bfc308-a7f0-4ee7-b4ba-4f6636c6d579</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>monthYearr.id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d32d8997-5b24-4a19-9419-463b9d42d479</key>
+                    <parentUnit>
+                        <key name="name" value="monthYearr.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="monthYearr" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+            <key name="name" value="ForiPayrollQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ForiPayroll" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ForiPayroll" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ForiPayroll" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ForiPayroll" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </join>
+        <join>
+            <name>4415224a-b517-4c52-9a50-a84beb936bee</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ForiPayroll" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="projName" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>1ad90d49-087b-4210-b293-0d9f73ebadd2</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="0cb2c716-0e3a-429f-bef7-c6f9d1b2b577" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="5c112494-7be0-414c-ab0c-ac3c59748b81" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="4415224a-b517-4c52-9a50-a84beb936bee" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </join>
+        <join>
+            <name>c2714984-23b5-421e-89b7-6a4dbbad7d8a</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ForiPayroll" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="monthYearr" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>04ddbdf7-926f-4c2a-82b8-53db102b316f</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b8a5adf6-cced-402d-9d9e-105977899f6a" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="4a20cd92-fc3c-43c6-8068-f2f489b4b03d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="c2714984-23b5-421e-89b7-6a4dbbad7d8a" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </join>
+        <join>
+            <name>a0362c45-5b07-4af1-952a-5e83ac30383b</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ForiPayroll" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="securityProj" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>b1936c69-4dd9-4964-8fd1-fe45843b5498</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="56835f7b-d0d9-4970-8a89-614d6fe31310" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="52c3fe9d-330f-4866-930a-d5072e4db02a" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="a0362c45-5b07-4af1-952a-5e83ac30383b" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </join>
+        <join>
+            <name>47502a4c-9794-48ba-8aae-297ada95430e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="projName" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="porjNum" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>d132a37c-e301-4ab4-8708-c19cf4e883ca</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="c07a2b4b-a18f-4ee5-b24b-0c1fec2dd929" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="0b07e647-9863-461d-b137-ee984b76dc2a" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="47502a4c-9794-48ba-8aae-297ada95430e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="ForiPayrollQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="外工工资数据" />
+            <lang locale="zh_HK" value="外工工資數據" />
+            <lang locale="zh_TW" value="外工工資數據" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="多分录基础单据模板" />
+            <lang locale="zh_CN" value="多分录基础单据模板" />
+            <lang locale="zh_TW" value="多分录基础单据模板" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多分录基础单据查询" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢" />
+            <lang locale="zh_TW" value="多分錄基礎單據查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.zjlw.social.client.SocialResource.ForiPayrollQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.zjlw.social.client.SocialResource.ForiPayrollQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.zjlw.social.client.SocialResource.ForiPayrollQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="外工工资数据" />
+            <lang locale="zh_CN" value="外工工资数据" />
+            <lang locale="zh_TW" value="外工工资数据" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[ForiPayroll].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[handler].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[monthYearr].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[porjNum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[projName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].subObjects.subEntity[securityProj].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[0b07e647-9863-461d-b137-ee984b76dc2a].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[0cb2c716-0e3a-429f-bef7-c6f9d1b2b577].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[4a20cd92-fc3c-43c6-8068-f2f489b4b03d].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[52c3fe9d-330f-4866-930a-d5072e4db02a].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[56835f7b-d0d9-4970-8a89-614d6fe31310].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[5c112494-7be0-414c-ab0c-ac3c59748b81].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[b8a5adf6-cced-402d-9d9e-105977899f6a].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.propertyUnit[c07a2b4b-a18f-4ee5-b24b-0c1fec2dd929].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[73c0d2ca-9065-4d62-996d-acbf543a8d01].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[AuditDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="zh_HK" value="審核日期" />
+            <lang locale="zh_TW" value="審核日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[AuditDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[AuditDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[Fivouchered].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[Fivouchered].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[Fivouchered].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[acountRow].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计数" />
+            <lang locale="zh_HK" value="計數" />
+            <lang locale="zh_TW" value="計數" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[acountRow].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[acountRow].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[auditor.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[auditor.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[billSate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[billSate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[billSate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[bizDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[f6a3f02e-1900-44b4-9675-717584781ab4].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="期间编码" />
+            <lang locale="zh_HK" value="期間編碼" />
+            <lang locale="zh_TW" value="期間編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[handler.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[handler.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[isOK].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否已对照外会提供数据进行校验，数据不再修改" />
+            <lang locale="zh_HK" value="是否已對照外會提供數據進行校驗，數據不再修改" />
+            <lang locale="zh_TW" value="是否已對照外會提供數據進行校驗，數據不再修改" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[isOK].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[isOK].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.beginDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="开始日期" />
+            <lang locale="zh_HK" value="開始日期" />
+            <lang locale="zh_TW" value="開始日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.createTime].displayName">
+            <lang locale="en_US" value="createTime" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.endDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束日期" />
+            <lang locale="zh_HK" value="結束日期" />
+            <lang locale="zh_TW" value="結束日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.isAdjustPeriod].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否为调整期间" />
+            <lang locale="zh_HK" value="是否為調整期間" />
+            <lang locale="zh_TW" value="是否為調整期間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.lastUpdateTime].displayName">
+            <lang locale="en_US" value="lastUpdateTime" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="年月" />
+            <lang locale="zh_HK" value="年月" />
+            <lang locale="zh_TW" value="年月" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.periodNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="期间" />
+            <lang locale="zh_HK" value="期間" />
+            <lang locale="zh_TW" value="期間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.periodQuarter].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="会计季度" />
+            <lang locale="zh_HK" value="會計季度" />
+            <lang locale="zh_TW" value="會計季度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[monthYearr.periodYear].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="会计年度" />
+            <lang locale="zh_HK" value="會計年度" />
+            <lang locale="zh_TW" value="會計年度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[porjNum.addressFR].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目地址" />
+            <lang locale="zh_HK" value="項目地址" />
+            <lang locale="zh_TW" value="項目地址" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[porjNum.nameFR].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目法文名称" />
+            <lang locale="zh_HK" value="項目法文名稱" />
+            <lang locale="zh_TW" value="項目法文名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projAddress].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目所在地" />
+            <lang locale="zh_HK" value="項目所在地" />
+            <lang locale="zh_TW" value="項目所在地" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projAddress].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projAddress].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projName.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目名称" />
+            <lang locale="zh_HK" value="項目名稱" />
+            <lang locale="zh_TW" value="項目名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projName.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projName.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projName.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projSCNum].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目社保号" />
+            <lang locale="zh_HK" value="項目社保號" />
+            <lang locale="zh_TW" value="項目社保號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projSCNum].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[projSCNum].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[securityProj.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保项目" />
+            <lang locale="zh_HK" value="社保項目" />
+            <lang locale="zh_TW" value="社保項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[securityProj.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[securityProj.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.social.app.ForiPayrollQuery].units.queryField[securityProj.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

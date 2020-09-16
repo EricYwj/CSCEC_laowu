@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.attendance.app</package>
+    <name>billStateEnum</name>
+    <alias>bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.zjlw.attendance.app.billStateEnum</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>SUBMITED</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].enumValues.enumValue[SUBMITED].alias</alias>
+            <userDefined>true</userDefined>
+            <value>0</value>
+        </enumValue>
+        <enumValue>
+            <name>AUDITED</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].enumValues.enumValue[AUDITED].alias</alias>
+            <userDefined>true</userDefined>
+            <value>1</value>
+        </enumValue>
+        <enumValue>
+            <name>PROOFED</name>
+            <alias>bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].enumValues.enumValue[PROOFED].alias</alias>
+            <userDefined>true</userDefined>
+            <value>2</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].enumValues.enumValue[AUDITED].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].enumValues.enumValue[PROOFED].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成凭证" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.zjlw.attendance.app.billStateEnum].enumValues.enumValue[SUBMITED].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已提交" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</bizEnum>
+

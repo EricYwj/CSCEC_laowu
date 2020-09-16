@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.basedata.org.app</package>
+    <name>R_Position_JobLevel_ID</name>
+    <alias>relationship[com.kingdee.eas.basedata.org.app.R_Position_JobLevel_ID].alias</alias>
+    <description>relationship[com.kingdee.eas.basedata.org.app.R_Position_JobLevel_ID].description</description>
+    <userDefined>false</userDefined>
+    <type>Association</type>
+    <clientCardinality>0..*</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.basedata.org.app" />
+        <key name="name" value="Position" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.hr.org.app" />
+        <key name="name" value="JobLevel" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.basedata.org.app.R_Position_JobLevel_ID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="岗位-职级" />
+            <lang locale="zh_HK" value="崗位-職級" />
+            <lang locale="zh_TW" value="崗位-職級" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.basedata.org.app.R_Position_JobLevel_ID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+

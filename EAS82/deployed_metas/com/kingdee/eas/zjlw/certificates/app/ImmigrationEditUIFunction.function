@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functionObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.certificates.app</package>
+    <name>ImmigrationEditUIFunction</name>
+    <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].alias</alias>
+    <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].description</description>
+    <userDefined>true</userDefined>
+    <isBindSingleBizObject>false</isBindSingleBizObject>
+    <operations>
+        <operation>
+            <name>ActionSubmit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].description</description>
+            <reverseOperation>internalAudit</reverseOperation>
+            <eventMethod>dfd2c083-00fa-1000-e000-001fc0a813e6</eventMethod>
+            <event>submitEvent</event>
+            <userDefined>true</userDefined>
+            <uiActionRef>
+                <id>50cf5dac-0105-1000-e000-00cac0a813a4uiaf</id>
+                <uiStatus>EDIT</uiStatus>
+                <webUIStatus />
+                <userDefined>true</userDefined>
+                <uiObjectRef>
+                    <key name="package" value="com.kingdee.eas.zjlw.certificates.client" />
+                    <key name="name" value="ImmigrationEditUI" />
+                </uiObjectRef>
+                <actionRefName>ActionSubmit</actionRefName>
+                <webActionRefName />
+                <parameters>
+                    <parameter>
+                        <name>billID</name>
+                        <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].alias</alias>
+                        <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].description</description>
+                        <direction>in</direction>
+                        <dataType>BOSUuid</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </parameters>
+            </uiActionRef>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="Immigration" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>internalAudit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[internalAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[internalAudit].description</description>
+            <reverseOperation>ActionSubmit</reverseOperation>
+            <eventMethod>5689a3e1-b335-4b74-9718-d7d351364791</eventMethod>
+            <event>internalAuditEvent</event>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="Immigration" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>mgAudit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[mgAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[mgAudit].description</description>
+            <reverseOperation />
+            <eventMethod>bbce8906-00fa-1000-e000-000ec0a813e6</eventMethod>
+            <event>passAuditEvent</event>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="Immigration" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>unAudit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[unAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[unAudit].description</description>
+            <reverseOperation />
+            <eventMethod>bbce8906-00fa-1000-e000-000fc0a813e6</eventMethod>
+            <event>unpassAuditEvent</event>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="Immigration" />
+            </entityObjectRef>
+        </operation>
+    </operations>
+    <resource>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].alias">
+            <lang locale="en_US" value="多分录基础单据编辑界面业务功能" />
+            <lang locale="zh_CN" value="入境管理编辑功能" />
+            <lang locale="zh_HK" value="入境管理編輯功能" />
+            <lang locale="zh_TW" value="入境管理編輯功能" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].description">
+            <lang locale="en_US" value="多分录基础单据编辑界面业务功能" />
+            <lang locale="zh_CN" value="多分录基础单据编辑界面业务功能" />
+            <lang locale="zh_HK" value="多分錄基礎單據編輯介面業務功能" />
+            <lang locale="zh_TW" value="多分錄基礎單據編輯介面業務功能" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].alias">
+            <lang locale="en_US" value="提交" />
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].description">
+            <lang locale="en_US" value="提交" />
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].alias">
+            <lang locale="en_US" value="单据内码" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].description">
+            <lang locale="en_US" value="单据内码" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[internalAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务人员审核通过" />
+            <lang locale="zh_HK" value="業務人員審核通過" />
+            <lang locale="zh_TW" value="業務人員審核通過" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[internalAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="國內工作部審核" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[mgAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目经理审核通过" />
+            <lang locale="zh_HK" value="項目經理審核通過" />
+            <lang locale="zh_TW" value="項目經理審核通過" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[mgAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[unAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核不通过" />
+            <lang locale="zh_HK" value="審核不通過" />
+            <lang locale="zh_TW" value="審核不通過" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ImmigrationEditUIFunction].operations.operation[unAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</functionObject>
+

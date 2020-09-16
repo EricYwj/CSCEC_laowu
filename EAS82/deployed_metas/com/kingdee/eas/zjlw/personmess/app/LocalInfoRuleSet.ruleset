@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleSet xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.personmess.app</package>
+    <name>LocalInfoRuleSet</name>
+    <alias>ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].alias</alias>
+    <description>ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].description</description>
+    <userDefined>true</userDefined>
+    <expressions>
+        <groupExpression>
+            <id>e0619510-1634-4f8c-b2c8-213dcfd3f6e7</id>
+            <parentID />
+            <source>entrys.basePay=entrys.profe.basePay</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>70a6d07a-3d85-4408-bb11-79ae6e8022c6</id>
+            <parentID>e0619510-1634-4f8c-b2c8-213dcfd3f6e7</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <property>
+                <ownerID>d925cc37-d395-42c2-9f48-a6da4d077940</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>d925cc37-d395-42c2-9f48-a6da4d077940</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>kdtEntrys.getCell(rowIndex,"basePay")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>b30bb16f-72f6-4e2f-b546-3fba1949a2ca</id>
+            <parentID>e0619510-1634-4f8c-b2c8-213dcfd3f6e7</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <method>
+                <ownerID>22c7d143-2e5c-485d-816c-7bf1f48b35e7</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>f8d3cce1-5184-4455-a44d-5afd60924894</id>
+                        <expressionID>5ddb9fb1-b7f1-43de-babf-1178f7897af7</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>95db856f-9b02-4bac-aede-6cc97d96f77e</id>
+                        <expressionID>50f08187-379a-4c46-97fd-9086d6d136fd</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>22c7d143-2e5c-485d-816c-7bf1f48b35e7</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>5ddb9fb1-b7f1-43de-babf-1178f7897af7</id>
+            <parentID />
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>Object</valueType>
+            <value />
+            <property>
+                <ownerID>91b8a74e-ea39-49a2-b371-bb1954f59657</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>91b8a74e-ea39-49a2-b371-bb1954f59657</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)kdtEntrys.getCell(rowIndex,"profe")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>50f08187-379a-4c46-97fd-9086d6d136fd</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>basePay</value>
+        </simpleExpression>
+        <groupExpression>
+            <id>0bf492b3-fb78-4f96-8049-f6bedc93b025</id>
+            <parentID />
+            <source>entrys.nBasePay=entrys.secuProf.basePay</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>efe6219c-14ce-4099-8381-94934bb8e7e8</id>
+            <parentID>0bf492b3-fb78-4f96-8049-f6bedc93b025</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <property>
+                <ownerID>27b6755e-f24d-41bb-bc0d-a560c7ab9263</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>27b6755e-f24d-41bb-bc0d-a560c7ab9263</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>kdtEntrys.getCell(rowIndex,"nBasePay")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>6de90fbf-181d-4131-836c-7ff09074ede8</id>
+            <parentID>0bf492b3-fb78-4f96-8049-f6bedc93b025</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <method>
+                <ownerID>b5a959c0-ddf6-47df-b53d-bbafb1cdef39</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>096948f9-63d6-4735-87d3-3af77c4b281f</id>
+                        <expressionID>e164c471-e707-4f51-b821-285b4d2278f4</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>0bf20734-69e3-4939-b34f-e596916a32ea</id>
+                        <expressionID>46fcbd4b-f3ea-48d6-a5f5-19fd0a556047</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>b5a959c0-ddf6-47df-b53d-bbafb1cdef39</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>e164c471-e707-4f51-b821-285b4d2278f4</id>
+            <parentID />
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>Object</valueType>
+            <value />
+            <property>
+                <ownerID>f8ac0128-64cd-4829-a12e-ee8c8a90eb85</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>f8ac0128-64cd-4829-a12e-ee8c8a90eb85</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)kdtEntrys.getCell(rowIndex,"secuProf")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>46fcbd4b-f3ea-48d6-a5f5-19fd0a556047</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>basePay</value>
+        </simpleExpression>
+    </expressions>
+    <actions>
+        <action>
+            <id>e7beaaf3-1c9a-4085-b23e-eb771d49de4e</id>
+            <name>entrys_basePay_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].actions.action[entrys_basePay_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].actions.action[entrys_basePay_ActionInfo].description</description>
+            <expressionID>e0619510-1634-4f8c-b2c8-213dcfd3f6e7</expressionID>
+        </action>
+        <action>
+            <id>40961347-b960-455f-a3d7-53116cf58edc</id>
+            <name>entrys_nBasePay_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].actions.action[entrys_nBasePay_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].actions.action[entrys_nBasePay_ActionInfo].description</description>
+            <expressionID>0bf492b3-fb78-4f96-8049-f6bedc93b025</expressionID>
+        </action>
+    </actions>
+    <rules>
+        <conditionRule>
+            <name>entrys_nBasePay_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].rules.conditionRule[entrys_nBasePay_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].rules.conditionRule[entrys_nBasePay_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="40961347-b960-455f-a3d7-53116cf58edc" />
+                </action>
+            </actions>
+        </conditionRule>
+    </rules>
+    <resource>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].actions.action[entrys_basePay_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_basePay" />
+            <lang locale="zh_HK" value="攜帶字段屬性_basePay" />
+            <lang locale="zh_TW" value="攜帶字段屬性_basePay" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].actions.action[entrys_basePay_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].actions.action[entrys_nBasePay_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_basePay" />
+            <lang locale="zh_HK" value="攜帶字段屬性_basePay" />
+            <lang locale="zh_TW" value="攜帶字段屬性_basePay" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].actions.action[entrys_nBasePay_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].rules.conditionRule[entrys_nBasePay_RuleInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_basePay" />
+            <lang locale="zh_HK" value="攜帶字段屬性_basePay" />
+            <lang locale="zh_TW" value="攜帶字段屬性_basePay" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].rules.conditionRule[entrys_nBasePay_RuleInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].rules.conditionRule[entrys_nBasePay_RuleInfo].extendedProperty.columnName">
+            <lang locale="en_US" value="secuProf" />
+            <lang locale="zh_CN" value="secuProf" />
+            <lang locale="zh_TW" value="secuProf" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.personmess.app.LocalInfoRuleSet].rules.conditionRule[entrys_nBasePay_RuleInfo].extendedProperty.userDefined">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</ruleSet>
+

@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.social.app</package>
+    <name>CT_SOC_PayBillEntry</name>
+    <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].alias</alias>
+    <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FSeq</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FSeq].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FSeq].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FParentID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>CFLastName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLastName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLastName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFFirstName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFirstName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFirstName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEnterDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFEnterDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFEnterDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFBasePay</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFBasePay].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFBasePay].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFMonthWork</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMonthWork].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMonthWork].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFAbsence</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAbsence].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAbsence].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFAbsDebit</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAbsDebit].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAbsDebit].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFNormalOver</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNormalOver].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNormalOver].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFMoreOver</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMoreOver].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMoreOver].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFFestOver</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFestOver].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFestOver].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFProfWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFExtProfWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFExtProfWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFExtProfWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFSecuDebit</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSecuDebit].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSecuDebit].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFVacaDebit</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFVacaDebit].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFVacaDebit].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFPersTax</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFPersTax].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFPersTax].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFChineWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFChineWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFChineWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFAlgerWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAlgerWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAlgerWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFTraWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFTraWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFTraWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFBTripWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFBTripWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFBTripWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFOneWorkWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFOneWorkWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFOneWorkWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFRiskWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFRiskWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFRiskWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFDisasWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFDisasWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFDisasWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFEatWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFEatWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFEatWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFOverTraWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFOverTraWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFOverTraWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFAreaWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAreaWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAreaWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFThingsWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFThingsWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFThingsWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFSwitchWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSwitchWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSwitchWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFNWorkWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNWorkWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNWorkWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFLiveWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLiveWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLiveWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFSpendWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSpendWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSpendWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFFireWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFireWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFireWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFRetirWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFRetirWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFRetirWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFFaraWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFaraWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFaraWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFProfAward</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfAward].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfAward].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFLangWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLangWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLangWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFUrgeWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUrgeWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUrgeWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFMonthAward</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMonthAward].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMonthAward].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFIndPay</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFIndPay].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFIndPay].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFNetPay</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNetPay].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNetPay].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFUnSignWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUnSignWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUnSignWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFSeniWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSeniWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSeniWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFWifeUnWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFWifeUnWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFWifeUnWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFFamilyWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFamilyWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFamilyWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFStudyWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFStudyWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFStudyWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFUnSCVCWage</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUnSCVCWage].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUnSCVCWage].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFSex</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSex].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSex].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFIsMarry</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFIsMarry].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFIsMarry].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFProfID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_SOC_PayBEIDfoo</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_SOC_SOCPBEPraq</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.zjlw.social.app" />
+                <key name="name" value="CT_SOC_PayBill" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FParentID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_SOC_SOCPBERo9l</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.zjlw.baseinfo.app" />
+                <key name="name" value="CT_BAS_ProjectWork" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFProfID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAbsDebit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="缺勤扣款" />
+            <lang locale="zh_HK" value="缺勤扣款" />
+            <lang locale="zh_TW" value="缺勤扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAbsDebit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAbsence].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="缺勤小时/天数" />
+            <lang locale="zh_HK" value="缺勤小時/天數" />
+            <lang locale="zh_TW" value="缺勤小時/天數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAbsence].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="缺勤小时/天数" />
+            <lang locale="zh_HK" value="缺勤小時/天數" />
+            <lang locale="zh_TW" value="缺勤小時/天數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAlgerWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="阿工补助" />
+            <lang locale="zh_HK" value="阿工補助" />
+            <lang locale="zh_TW" value="阿工補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAlgerWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAreaWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="区域补贴" />
+            <lang locale="zh_HK" value="區域補貼" />
+            <lang locale="zh_TW" value="區域補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFAreaWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFBTripWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="差旅补助" />
+            <lang locale="zh_HK" value="差旅補助" />
+            <lang locale="zh_TW" value="差旅補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFBTripWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFBasePay].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFBasePay].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFChineWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="中工补助" />
+            <lang locale="zh_HK" value="中工補助" />
+            <lang locale="zh_TW" value="中工補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFChineWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFDisasWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="危害补贴" />
+            <lang locale="zh_HK" value="危害補貼" />
+            <lang locale="zh_TW" value="危害補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFDisasWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="风险补助" />
+            <lang locale="zh_HK" value="風險補助" />
+            <lang locale="zh_TW" value="風險補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFEatWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工作餐补" />
+            <lang locale="zh_HK" value="工作餐補" />
+            <lang locale="zh_TW" value="工作餐補" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFEatWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFEnterDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="进场日期" />
+            <lang locale="zh_HK" value="進場日期" />
+            <lang locale="zh_TW" value="進場日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFEnterDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="进场日期" />
+            <lang locale="zh_HK" value="進場日期" />
+            <lang locale="zh_TW" value="進場日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFExtProfWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="额外职责补助" />
+            <lang locale="zh_HK" value="額外職責補助" />
+            <lang locale="zh_TW" value="額外職責補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFExtProfWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="额外职责补助" />
+            <lang locale="zh_HK" value="額外職責補助" />
+            <lang locale="zh_TW" value="額外職責補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFamilyWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="家庭津贴" />
+            <lang locale="zh_HK" value="家庭津貼" />
+            <lang locale="zh_TW" value="家庭津貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFamilyWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="家庭津贴" />
+            <lang locale="zh_HK" value="家庭津貼" />
+            <lang locale="zh_TW" value="家庭津貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFaraWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="特殊住所和偏远地区补贴" />
+            <lang locale="zh_HK" value="特殊住所和偏遠地區補貼" />
+            <lang locale="zh_TW" value="特殊住所和偏遠地區補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFaraWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFestOver].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="节假日加班" />
+            <lang locale="zh_HK" value="節假日加班" />
+            <lang locale="zh_TW" value="節假日加班" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFestOver].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFireWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="解雇一次性补贴" />
+            <lang locale="zh_HK" value="解雇一次性補貼" />
+            <lang locale="zh_TW" value="解雇一次性補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFireWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFirstName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名" />
+            <lang locale="zh_HK" value="名" />
+            <lang locale="zh_TW" value="名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFFirstName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名" />
+            <lang locale="zh_HK" value="名" />
+            <lang locale="zh_TW" value="名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFIndPay].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="独立工资" />
+            <lang locale="zh_HK" value="獨立工資" />
+            <lang locale="zh_TW" value="獨立工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFIndPay].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFIsMarry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="婚否" />
+            <lang locale="zh_HK" value="婚否" />
+            <lang locale="zh_TW" value="婚否" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFIsMarry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="婚否" />
+            <lang locale="zh_HK" value="婚否" />
+            <lang locale="zh_TW" value="婚否" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLangWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="语言补贴" />
+            <lang locale="zh_HK" value="語言補貼" />
+            <lang locale="zh_TW" value="語言補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLangWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLastName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓" />
+            <lang locale="zh_HK" value="姓" />
+            <lang locale="zh_TW" value="姓" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLastName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓" />
+            <lang locale="zh_HK" value="姓" />
+            <lang locale="zh_TW" value="姓" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLiveWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="住房补贴" />
+            <lang locale="zh_HK" value="住房補貼" />
+            <lang locale="zh_TW" value="住房補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFLiveWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMonthAward].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="月奖金" />
+            <lang locale="zh_HK" value="月獎金" />
+            <lang locale="zh_TW" value="月獎金" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMonthAward].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMonthWork].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="月工作天数/小时数" />
+            <lang locale="zh_HK" value="月工作天數/小時數" />
+            <lang locale="zh_TW" value="月工作天數/小時數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMonthWork].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="月工作天数/小时数" />
+            <lang locale="zh_HK" value="月工作天數/小時數" />
+            <lang locale="zh_TW" value="月工作天數/小時數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMoreOver].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="1.75倍加班" />
+            <lang locale="zh_HK" value="1.75倍加班" />
+            <lang locale="zh_TW" value="1.75倍加班" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFMoreOver].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNWorkWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="夜班补贴" />
+            <lang locale="zh_HK" value="夜班補貼" />
+            <lang locale="zh_TW" value="夜班補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNWorkWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNetPay].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="净工资" />
+            <lang locale="zh_HK" value="淨工資" />
+            <lang locale="zh_TW" value="淨工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNetPay].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNormalOver].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="平时加班" />
+            <lang locale="zh_HK" value="平時加班" />
+            <lang locale="zh_TW" value="平時加班" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFNormalOver].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFOneWorkWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="家庭一人就业补贴" />
+            <lang locale="zh_HK" value="家庭一人就業補貼" />
+            <lang locale="zh_TW" value="家庭一人就業補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFOneWorkWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFOverTraWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="7点后加班补贴" />
+            <lang locale="zh_HK" value="7點後加班補貼" />
+            <lang locale="zh_TW" value="7點後加班補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFOverTraWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFPersTax].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="个人所得税" />
+            <lang locale="zh_HK" value="個人所得稅" />
+            <lang locale="zh_TW" value="個人所得稅" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFPersTax].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfAward].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="岗位奖金" />
+            <lang locale="zh_HK" value="崗位獎金" />
+            <lang locale="zh_TW" value="崗位獎金" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfAward].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工种" />
+            <lang locale="zh_HK" value="工種" />
+            <lang locale="zh_TW" value="工種" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工种" />
+            <lang locale="zh_HK" value="工種" />
+            <lang locale="zh_TW" value="工種" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="职责补助" />
+            <lang locale="zh_HK" value="職責補助" />
+            <lang locale="zh_TW" value="職責補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFProfWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFRetirWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="退休一次性补贴" />
+            <lang locale="zh_HK" value="退休一次性補貼" />
+            <lang locale="zh_TW" value="退休一次性補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFRetirWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFRiskWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="风险补助" />
+            <lang locale="zh_HK" value="風險補助" />
+            <lang locale="zh_TW" value="風險補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFRiskWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="风险补助" />
+            <lang locale="zh_HK" value="風險補助" />
+            <lang locale="zh_TW" value="風險補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSecuDebit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSecuDebit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSeniWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工龄补贴" />
+            <lang locale="zh_HK" value="工齡補貼" />
+            <lang locale="zh_TW" value="工齡補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSeniWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工龄补贴" />
+            <lang locale="zh_HK" value="工齡補貼" />
+            <lang locale="zh_TW" value="工齡補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSex].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性别" />
+            <lang locale="zh_HK" value="性別" />
+            <lang locale="zh_TW" value="性別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSex].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性别" />
+            <lang locale="zh_HK" value="性別" />
+            <lang locale="zh_TW" value="性別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSpendWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="花费补贴" />
+            <lang locale="zh_HK" value="花費補貼" />
+            <lang locale="zh_TW" value="花費補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSpendWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFStudyWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="就学补贴" />
+            <lang locale="zh_HK" value="就學補貼" />
+            <lang locale="zh_TW" value="就學補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFStudyWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="就学补贴" />
+            <lang locale="zh_HK" value="就學補貼" />
+            <lang locale="zh_TW" value="就學補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSwitchWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="轮班补贴" />
+            <lang locale="zh_HK" value="輪班補貼" />
+            <lang locale="zh_TW" value="輪班補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFSwitchWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFThingsWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="丧葬婚假补贴" />
+            <lang locale="zh_HK" value="喪葬婚假補貼" />
+            <lang locale="zh_TW" value="喪葬婚假補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFThingsWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFTraWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="交通补贴" />
+            <lang locale="zh_HK" value="交通補貼" />
+            <lang locale="zh_TW" value="交通補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFTraWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUnSCVCWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="奖金（扣社保休假）部分" />
+            <lang locale="zh_HK" value="獎金（扣社保休假）部分" />
+            <lang locale="zh_TW" value="獎金（扣社保休假）部分" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUnSCVCWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="奖金（扣社保休假）部分" />
+            <lang locale="zh_HK" value="獎金（扣社保休假）部分" />
+            <lang locale="zh_TW" value="獎金（扣社保休假）部分" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUnSignWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同到期不续签补贴" />
+            <lang locale="zh_HK" value="合同到期不續簽補貼" />
+            <lang locale="zh_TW" value="合同到期不續簽補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUnSignWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同到期不续签补贴" />
+            <lang locale="zh_HK" value="合同到期不續簽補貼" />
+            <lang locale="zh_TW" value="合同到期不續簽補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUrgeWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="鼓励补贴" />
+            <lang locale="zh_HK" value="鼓勵補貼" />
+            <lang locale="zh_TW" value="鼓勵補貼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFUrgeWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基本工资" />
+            <lang locale="zh_HK" value="基本工資" />
+            <lang locale="zh_TW" value="基本工資" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFVacaDebit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="休假工资扣款" />
+            <lang locale="zh_HK" value="休假工資扣款" />
+            <lang locale="zh_TW" value="休假工資扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFVacaDebit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保扣款" />
+            <lang locale="zh_HK" value="社保扣款" />
+            <lang locale="zh_TW" value="社保扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFWifeUnWage].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="妻子待业补助" />
+            <lang locale="zh_HK" value="妻子待業補助" />
+            <lang locale="zh_TW" value="妻子待業補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[CFWifeUnWage].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="妻子待业补助" />
+            <lang locale="zh_HK" value="妻子待業補助" />
+            <lang locale="zh_TW" value="妻子待業補助" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FParentID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FParentID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FSeq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].columns.column[FSeq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号（定义为序列属性即使用{seq}）" />
+            <lang locale="zh_HK" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+            <lang locale="zh_TW" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.social.app.CT_SOC_PayBillEntry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

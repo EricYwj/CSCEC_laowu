@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.baseinfo.app</package>
+    <name>ProvGovernmentEntry</name>
+    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].alias</alias>
+    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].description</description>
+    <userDefined>true</userDefined>
+    <bosType>89D7E7AA</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.zjlw.baseinfo.ProvGovernmentEntry</businessImplName>
+    <businessControllerName>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntryController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].description</description>
+            <innerID>fddba35b-2a56-4077-9cf4-df48b545cbda</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].description</description>
+            <innerID>774adf30-c1bf-4fa4-bed2-8b45cd47644b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].description</description>
+            <innerID>2c701aa1-2003-4d41-b46f-1f2645aae531</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].description</description>
+            <innerID>7d769231-18e3-4339-868d-9bbd9423d4e3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].description</description>
+            <innerID>d60a943c-25a6-421e-9af8-3fd7368f66ca</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].description</description>
+            <innerID>4a63cb6b-72dc-4358-b9a3-3bb36c7122eb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].description</description>
+            <innerID>b8da55c6-9be0-46b4-a035-1aad09d1e5a7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].description</description>
+            <innerID>fcfbbd62-53a3-4c32-86f1-c5191132adee</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>update</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].description</description>
+            <innerID>3a33990c-c299-4660-820b-9ab25fc85c9d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updatePartial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].description</description>
+            <innerID>d4a5d2ee-ca85-411b-92c0-fde2c3b1caf7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updateBigObject</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].description</description>
+            <innerID>2c18cf24-c81a-4d8f-9a72-8fb6d33bf103</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].description</description>
+            <innerID>2cfda520-a3a9-4286-8eea-1ca8f0de9768</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].description</description>
+            <innerID>35d06899-46a9-4368-8659-4b085aa757e6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].description</description>
+            <innerID>6a5ed7ed-3fe5-4cc5-9381-de8b81b76f74</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].description</description>
+            <innerID>aae5e8a3-1915-49b2-89d1-b58093eb677c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>sorter</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[sorter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[sorter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SorterItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].description</description>
+            <innerID>41fd05b1-a52f-4e4f-8e81-d45f932398fd</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].description</description>
+            <innerID>f7d8bf12-d140-4bcf-8c3e-13c5963181b9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].description</description>
+            <innerID>ac35c732-4f65-45c9-a775-5c469c9db5d6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].description</description>
+            <innerID>c5addb72-010b-447b-b5dc-c6a5dfdbb9bf</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].description</description>
+            <innerID>6b9cc045-2575-4ba4-b986-a82e094863d0</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].description</description>
+            <innerID>5b606d06-6354-485d-8935-e289a7540866</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>arrayPK</name>
+                    <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[arrayPK].alias</alias>
+                    <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[arrayPK].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK[]</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.zjlw.baseinfo.ProvGovernment</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillEntryBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.zjlw.baseinfo.app" />
+        <key name="name" value="CT_BAS_ProvGovernmentEntry" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.linkProperty[parent].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.zjlw.baseinfo.app" />
+                <key name="name" value="R_ProvGovernment_ProvGovernmentEntry_Entrys" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>post</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFPost" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>fullName</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFFullName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>birthDate</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFBirthDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>jobContent</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFJobContent" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>maritalStatus</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.zjlw.certificates.app.mayrStatEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFMaritalStatus" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>telephone</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTelephone" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>email</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEmail" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>fond</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFFond" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>workExper</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFWorkExper" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>remark</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFRemark" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>childCase</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFChildCase" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>homeAddress</name>
+            <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].alias</alias>
+            <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFHomeAddress" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].extendedProperty.genImplementCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[addnew].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[arrayPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[arrayPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[delete].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[exists].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[sorter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getPKList].parameters.parameter[sorter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updateBigObject].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[updatePartial].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].methods.method[update].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.linkProperty[parent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.linkProperty[parent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生日期" />
+            <lang locale="zh_HK" value="出生日期" />
+            <lang locale="zh_TW" value="出生日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生日期" />
+            <lang locale="zh_HK" value="出生日期" />
+            <lang locale="zh_TW" value="出生日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[birthDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="子女情况" />
+            <lang locale="zh_HK" value="子女情況" />
+            <lang locale="zh_TW" value="子女情況" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="子女情况" />
+            <lang locale="zh_HK" value="子女情況" />
+            <lang locale="zh_TW" value="子女情況" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[childCase].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电子邮箱地址" />
+            <lang locale="zh_HK" value="電子郵箱地址" />
+            <lang locale="zh_TW" value="電子郵箱地址" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电子邮箱地址" />
+            <lang locale="zh_HK" value="電子郵箱地址" />
+            <lang locale="zh_TW" value="電子郵箱地址" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[email].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="喜好" />
+            <lang locale="zh_HK" value="喜好" />
+            <lang locale="zh_TW" value="喜好" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="喜好" />
+            <lang locale="zh_HK" value="喜好" />
+            <lang locale="zh_TW" value="喜好" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fond].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓名" />
+            <lang locale="zh_HK" value="姓名" />
+            <lang locale="zh_TW" value="姓名" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓名" />
+            <lang locale="zh_HK" value="姓名" />
+            <lang locale="zh_TW" value="姓名" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[fullName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="家庭住址" />
+            <lang locale="zh_HK" value="家庭住址" />
+            <lang locale="zh_TW" value="家庭住址" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="家庭住址" />
+            <lang locale="zh_HK" value="家庭住址" />
+            <lang locale="zh_TW" value="家庭住址" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[homeAddress].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工作内容" />
+            <lang locale="zh_HK" value="工作內容" />
+            <lang locale="zh_TW" value="工作內容" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工作内容" />
+            <lang locale="zh_HK" value="工作內容" />
+            <lang locale="zh_TW" value="工作內容" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[jobContent].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="婚否" />
+            <lang locale="zh_HK" value="婚否" />
+            <lang locale="zh_TW" value="婚否" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="unmarried" />
+            <lang locale="zh_HK" value="unmarried" />
+            <lang locale="zh_TW" value="unmarried" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="婚否" />
+            <lang locale="zh_HK" value="婚否" />
+            <lang locale="zh_TW" value="婚否" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.defaultValue">
+            <lang locale="en_US" value="unmarried" />
+            <lang locale="zh_CN" value="unmarried" />
+            <lang locale="zh_TW" value="unmarried" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[maritalStatus].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="职务" />
+            <lang locale="zh_HK" value="職務" />
+            <lang locale="zh_TW" value="職務" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="职务" />
+            <lang locale="zh_HK" value="職務" />
+            <lang locale="zh_TW" value="職務" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[post].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[remark].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="联系方式电话" />
+            <lang locale="zh_HK" value="聯繫方式電話" />
+            <lang locale="zh_TW" value="聯繫方式電話" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="联系方式电话" />
+            <lang locale="zh_HK" value="聯繫方式電話" />
+            <lang locale="zh_TW" value="聯繫方式電話" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[telephone].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="之前的工作经历简述" />
+            <lang locale="zh_HK" value="之前的工作經歷簡述" />
+            <lang locale="zh_TW" value="之前的工作經歷簡述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="之前的工作经历简述" />
+            <lang locale="zh_HK" value="之前的工作經歷簡述" />
+            <lang locale="zh_TW" value="之前的工作經歷簡述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.zjlw.baseinfo.app.ProvGovernmentEntry].properties.ownProperty[workExper].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

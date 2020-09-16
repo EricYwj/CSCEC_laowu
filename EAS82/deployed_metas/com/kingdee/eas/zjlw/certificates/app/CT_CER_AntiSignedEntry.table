@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.certificates.app</package>
+    <name>CT_CER_AntiSignedEntry</name>
+    <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].alias</alias>
+    <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FSeq</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FSeq].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FSeq].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FParentID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>CFName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFBirDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPasspNo</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspNo].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspNo].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPasspIssDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspIssDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspIssDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPasspExDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspExDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspExDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFBirAddrCn</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirAddrCn].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirAddrCn].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFFName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFFName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFFName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAlphFName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAlphFName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAlphFName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFMName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFMName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFMName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAlphMName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAlphMName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAlphMName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFSendLaBuDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSendLaBuDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSendLaBuDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAntiSgTime</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAntiSgTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAntiSgTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFSex</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSex].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSex].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFMayrStat</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFMayrStat].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFMayrStat].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPartnerID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPartnerID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPartnerID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFTaskProjID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFTaskProjID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFTaskProjID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPmtProjID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPmtProjID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPmtProjID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFQuProfID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFQuProfID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFQuProfID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFActproff</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFActproff].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFActproff].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFWorkExp</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFWorkExp].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFWorkExp].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFRemark</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFRemark].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFRemark].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFIdNum</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIdNum].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIdNum].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFIsCancel</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsCancel].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsCancel].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFNatioNalID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFNatioNalID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFNatioNalID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFSignNum</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSignNum].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSignNum].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFSourceEntryID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSourceEntryID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSourceEntryID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPersonID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPersonID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPersonID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFLastName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLastName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLastName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>50</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFFirstName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFFirstName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFFirstName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFBirthPlaceFr</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirthPlaceFr].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirthPlaceFr].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPassportAgence</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportAgence].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportAgence].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPassportCityCID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportCityCID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportCityCID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPassportCityF</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportCityF].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportCityF].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPmtProfFr</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPmtProfFr].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPmtProfFr].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFOwnerSignDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFOwnerSignDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFOwnerSignDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFDocUpDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFDocUpDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFDocUpDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFLaborSignNo</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLaborSignNo].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLaborSignNo].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFDocAffiliated</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFDocAffiliated].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFDocAffiliated].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFIsLogout</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsLogout].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsLogout].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFLogoutDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLogoutDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLogoutDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFLogoutReson</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLogoutReson].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLogoutReson].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>150</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCancelDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCancelDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCancelDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCancelReson</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCancelReson].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCancelReson].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>150</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAuthType</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAuthType].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAuthType].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCopies</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCopies].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCopies].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFCoupleName</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleName].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCoupleNameAlphabet</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleNameAlphabet].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleNameAlphabet].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCoupleBirthDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleBirthDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleBirthDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCoupleBirthPlace</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleBirthPlace].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleBirthPlace].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCoupleNationalID</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleNationalID].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleNationalID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCoupleWorkPlace</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleWorkPlace].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleWorkPlace].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFContactway</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFContactway].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFContactway].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>30</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFResidence</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFResidence].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFResidence].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>150</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFOldPassport</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFOldPassport].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFOldPassport].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>40</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAssignDate</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAssignDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAssignDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPersonState</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPersonState].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPersonState].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFIsPush</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsPush].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsPush].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAntiEndTime</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAntiEndTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAntiEndTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAppAffiliated</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAppAffiliated].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAppAffiliated].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPerSt</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPerSt].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPerSt].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFLeaveTime</name>
+            <alias>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLeaveTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLeaveTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_CER_AntiSEIobb</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_CER_CERASEPrrb</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="CT_CER_AntiSigned" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FParentID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CER_CERASEArfo</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Admin" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFPartnerID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CER_CERASEAsme</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Admin" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFTaskProjID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CER_CERASEMtab</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Admin" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFPmtProjID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CER_CERASEUP37</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.zjlw.baseinfo.app" />
+                <key name="name" value="CT_BAS_ProjectWork" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFQuProfID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CER_CERASEAx4f</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_Country" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFNatioNalID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CER_CERASEAsot</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_Province" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFPassportCityCID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CER_CERASEOpbo</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_Country" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFCoupleNationalID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFActproff].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际专业或工种" />
+            <lang locale="zh_HK" value="實際專業或工種" />
+            <lang locale="zh_TW" value="實際專業或工種" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFActproff].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际工种" />
+            <lang locale="zh_HK" value="實際工種" />
+            <lang locale="zh_TW" value="實際工種" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAlphFName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父亲姓名拼音" />
+            <lang locale="zh_HK" value="父親姓名拼音" />
+            <lang locale="zh_TW" value="父親姓名拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAlphFName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父亲姓名拼音" />
+            <lang locale="zh_HK" value="父親姓名拼音" />
+            <lang locale="zh_TW" value="父親姓名拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAlphMName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="母亲姓名拼音" />
+            <lang locale="zh_HK" value="母親姓名拼音" />
+            <lang locale="zh_TW" value="母親姓名拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAlphMName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="母亲姓名拼音" />
+            <lang locale="zh_HK" value="母親姓名拼音" />
+            <lang locale="zh_TW" value="母親姓名拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAntiEndTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签到期时间" />
+            <lang locale="zh_HK" value="返簽到期時間" />
+            <lang locale="zh_TW" value="返簽到期時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAntiEndTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签到期时间" />
+            <lang locale="zh_HK" value="返簽到期時間" />
+            <lang locale="zh_TW" value="返簽到期時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAntiSgTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签生效时间" />
+            <lang locale="zh_HK" value="返簽生效時間" />
+            <lang locale="zh_TW" value="返簽生效時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAntiSgTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签办理完毕时间" />
+            <lang locale="zh_HK" value="返簽辦理完畢時間" />
+            <lang locale="zh_TW" value="返簽辦理完畢時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAppAffiliated].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签申请签收件挂靠人" />
+            <lang locale="zh_HK" value="返簽申請簽收件掛靠人" />
+            <lang locale="zh_TW" value="返簽申請簽收件掛靠人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAppAffiliated].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签申请签收件挂靠人" />
+            <lang locale="zh_HK" value="返簽申請簽收件掛靠人" />
+            <lang locale="zh_TW" value="返簽申請簽收件掛靠人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAssignDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分配工种完成时间" />
+            <lang locale="zh_HK" value="分配工種完成時間" />
+            <lang locale="zh_TW" value="分配工種完成時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAssignDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分配工种完成时间" />
+            <lang locale="zh_HK" value="分配工種完成時間" />
+            <lang locale="zh_TW" value="分配工種完成時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAuthType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公证认证类型" />
+            <lang locale="zh_HK" value="公證認證類型" />
+            <lang locale="zh_TW" value="公證認證類型" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFAuthType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公证认证类型" />
+            <lang locale="zh_HK" value="公證認證類型" />
+            <lang locale="zh_TW" value="公證認證類型" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirAddrCn].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生地中文" />
+            <lang locale="zh_HK" value="出生地中文" />
+            <lang locale="zh_TW" value="出生地中文" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirAddrCn].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生地" />
+            <lang locale="zh_HK" value="出生地" />
+            <lang locale="zh_TW" value="出生地" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生日期" />
+            <lang locale="zh_HK" value="出生日期" />
+            <lang locale="zh_TW" value="出生日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生日期" />
+            <lang locale="zh_HK" value="出生日期" />
+            <lang locale="zh_TW" value="出生日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirthPlaceFr].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生地拼音" />
+            <lang locale="zh_HK" value="出生地拼音" />
+            <lang locale="zh_TW" value="出生地拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFBirthPlaceFr].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生地拼音" />
+            <lang locale="zh_HK" value="出生地拼音" />
+            <lang locale="zh_TW" value="出生地拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCancelDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="停办时间" />
+            <lang locale="zh_HK" value="停辦時間" />
+            <lang locale="zh_TW" value="停辦時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCancelDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="停办时间" />
+            <lang locale="zh_HK" value="停辦時間" />
+            <lang locale="zh_TW" value="停辦時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCancelReson].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="停办理由" />
+            <lang locale="zh_HK" value="停辦理由" />
+            <lang locale="zh_TW" value="停辦理由" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCancelReson].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="停办理由" />
+            <lang locale="zh_HK" value="停辦理由" />
+            <lang locale="zh_TW" value="停辦理由" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFContactway].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内联系方式" />
+            <lang locale="zh_HK" value="國內聯繫方式" />
+            <lang locale="zh_TW" value="國內聯繫方式" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFContactway].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内联系方式" />
+            <lang locale="zh_HK" value="國內聯繫方式" />
+            <lang locale="zh_TW" value="國內聯繫方式" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCopies].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="份数" />
+            <lang locale="zh_HK" value="份數" />
+            <lang locale="zh_TW" value="份數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCopies].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="份数" />
+            <lang locale="zh_HK" value="份數" />
+            <lang locale="zh_TW" value="份數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleBirthDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶出生日期" />
+            <lang locale="zh_HK" value="配偶出生日期" />
+            <lang locale="zh_TW" value="配偶出生日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleBirthDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶出生日期" />
+            <lang locale="zh_HK" value="配偶出生日期" />
+            <lang locale="zh_TW" value="配偶出生日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleBirthPlace].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶出生地" />
+            <lang locale="zh_HK" value="配偶出生地" />
+            <lang locale="zh_TW" value="配偶出生地" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleBirthPlace].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶出生地" />
+            <lang locale="zh_HK" value="配偶出生地" />
+            <lang locale="zh_TW" value="配偶出生地" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleNameAlphabet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶姓名拼音" />
+            <lang locale="zh_HK" value="配偶姓名拼音" />
+            <lang locale="zh_TW" value="配偶姓名拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleNameAlphabet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶姓名拼音" />
+            <lang locale="zh_HK" value="配偶姓名拼音" />
+            <lang locale="zh_TW" value="配偶姓名拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶姓名" />
+            <lang locale="zh_HK" value="配偶姓名" />
+            <lang locale="zh_TW" value="配偶姓名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶姓名" />
+            <lang locale="zh_HK" value="配偶姓名" />
+            <lang locale="zh_TW" value="配偶姓名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleNationalID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶国籍" />
+            <lang locale="zh_HK" value="配偶國籍" />
+            <lang locale="zh_TW" value="配偶國籍" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleNationalID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶国籍" />
+            <lang locale="zh_HK" value="配偶國籍" />
+            <lang locale="zh_TW" value="配偶國籍" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleWorkPlace].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶工作单位或项目" />
+            <lang locale="zh_HK" value="配偶工作單位或項目" />
+            <lang locale="zh_TW" value="配偶工作單位或項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFCoupleWorkPlace].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶工作单位或项目" />
+            <lang locale="zh_HK" value="配偶工作單位或項目" />
+            <lang locale="zh_TW" value="配偶工作單位或項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFDocAffiliated].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签批件挂靠人" />
+            <lang locale="zh_HK" value="返簽批件掛靠人" />
+            <lang locale="zh_TW" value="返簽批件掛靠人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFDocAffiliated].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签批件挂靠人" />
+            <lang locale="zh_HK" value="返簽批件掛靠人" />
+            <lang locale="zh_TW" value="返簽批件掛靠人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFDocUpDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签批件上传时间" />
+            <lang locale="zh_HK" value="返簽批件上傳時間" />
+            <lang locale="zh_TW" value="返簽批件上傳時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFDocUpDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返签批件上传时间" />
+            <lang locale="zh_HK" value="返簽批件上傳時間" />
+            <lang locale="zh_TW" value="返簽批件上傳時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFFName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父亲姓名" />
+            <lang locale="zh_HK" value="父親姓名" />
+            <lang locale="zh_TW" value="父親姓名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFFName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父亲姓名" />
+            <lang locale="zh_HK" value="父親姓名" />
+            <lang locale="zh_TW" value="父親姓名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFFirstName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名拼音" />
+            <lang locale="zh_HK" value="名拼音" />
+            <lang locale="zh_TW" value="名拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFFirstName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名拼音" />
+            <lang locale="zh_HK" value="名拼音" />
+            <lang locale="zh_TW" value="名拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIdNum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="身份证号" />
+            <lang locale="zh_HK" value="身份證號" />
+            <lang locale="zh_TW" value="身份證號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIdNum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="身份证号" />
+            <lang locale="zh_HK" value="身份證號" />
+            <lang locale="zh_TW" value="身份證號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsCancel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否停办" />
+            <lang locale="zh_HK" value="是否停辦" />
+            <lang locale="zh_TW" value="是否停辦" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsCancel].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否停办" />
+            <lang locale="zh_HK" value="是否停辦" />
+            <lang locale="zh_TW" value="是否停辦" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsLogout].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否未交资料释放指标" />
+            <lang locale="zh_HK" value="是否未交資料釋放指標" />
+            <lang locale="zh_TW" value="是否未交資料釋放指標" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsLogout].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否未交资料注销" />
+            <lang locale="zh_HK" value="是否未交資料註銷" />
+            <lang locale="zh_TW" value="是否未交資料註銷" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsPush].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否推送" />
+            <lang locale="zh_HK" value="是否推送" />
+            <lang locale="zh_TW" value="是否推送" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFIsPush].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否推送" />
+            <lang locale="zh_HK" value="是否推送" />
+            <lang locale="zh_TW" value="是否推送" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLaborSignNo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="劳动局返签号" />
+            <lang locale="zh_HK" value="勞動局返簽號" />
+            <lang locale="zh_TW" value="勞動局返簽號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLaborSignNo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="劳动局返签号" />
+            <lang locale="zh_HK" value="勞動局返簽號" />
+            <lang locale="zh_TW" value="勞動局返簽號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLastName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓拼音" />
+            <lang locale="zh_HK" value="姓拼音" />
+            <lang locale="zh_TW" value="姓拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLastName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓拼音" />
+            <lang locale="zh_HK" value="姓拼音" />
+            <lang locale="zh_TW" value="姓拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLeaveTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="离境时间" />
+            <lang locale="zh_HK" value="離境時間" />
+            <lang locale="zh_TW" value="離境時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLeaveTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="离境时间" />
+            <lang locale="zh_HK" value="離境時間" />
+            <lang locale="zh_TW" value="離境時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLogoutDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="释放指标时间" />
+            <lang locale="zh_HK" value="釋放指標時間" />
+            <lang locale="zh_TW" value="釋放指標時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLogoutDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="注销时间" />
+            <lang locale="zh_HK" value="註銷時間" />
+            <lang locale="zh_TW" value="註銷時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLogoutReson].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="未交资料理由" />
+            <lang locale="zh_HK" value="未交資料理由" />
+            <lang locale="zh_TW" value="未交資料理由" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFLogoutReson].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="注销理由" />
+            <lang locale="zh_HK" value="註銷理由" />
+            <lang locale="zh_TW" value="註銷理由" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFMName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="母亲姓名" />
+            <lang locale="zh_HK" value="母親姓名" />
+            <lang locale="zh_TW" value="母親姓名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFMName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="母亲姓名" />
+            <lang locale="zh_HK" value="母親姓名" />
+            <lang locale="zh_TW" value="母親姓名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFMayrStat].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="婚姻状态" />
+            <lang locale="zh_HK" value="婚姻狀態" />
+            <lang locale="zh_TW" value="婚姻狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFMayrStat].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="婚姻状态" />
+            <lang locale="zh_HK" value="婚姻狀態" />
+            <lang locale="zh_TW" value="婚姻狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="中文姓名" />
+            <lang locale="zh_HK" value="中文姓名" />
+            <lang locale="zh_TW" value="中文姓名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓名" />
+            <lang locale="zh_HK" value="姓名" />
+            <lang locale="zh_TW" value="姓名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFNatioNalID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国籍" />
+            <lang locale="zh_HK" value="國籍" />
+            <lang locale="zh_TW" value="國籍" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFNatioNalID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国籍" />
+            <lang locale="zh_HK" value="國籍" />
+            <lang locale="zh_TW" value="國籍" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFOldPassport].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="旧护照号码" />
+            <lang locale="zh_HK" value="舊護照號碼" />
+            <lang locale="zh_TW" value="舊護照號碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFOldPassport].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="旧护照号码" />
+            <lang locale="zh_HK" value="舊護照號碼" />
+            <lang locale="zh_TW" value="舊護照號碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFOwnerSignDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业主签字完成时间" />
+            <lang locale="zh_HK" value="業主簽字完成時間" />
+            <lang locale="zh_TW" value="業主簽字完成時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFOwnerSignDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业主签字完成时间" />
+            <lang locale="zh_HK" value="業主簽字完成時間" />
+            <lang locale="zh_TW" value="業主簽字完成時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPartnerID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合作单位" />
+            <lang locale="zh_HK" value="合作單位" />
+            <lang locale="zh_TW" value="合作單位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPartnerID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合作单位" />
+            <lang locale="zh_HK" value="合作單位" />
+            <lang locale="zh_TW" value="合作單位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspExDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照到期日期" />
+            <lang locale="zh_HK" value="護照到期日期" />
+            <lang locale="zh_TW" value="護照到期日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspExDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照失效日期" />
+            <lang locale="zh_HK" value="護照失效日期" />
+            <lang locale="zh_TW" value="護照失效日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspIssDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发日期" />
+            <lang locale="zh_HK" value="護照簽發日期" />
+            <lang locale="zh_TW" value="護照簽發日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspIssDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发日期" />
+            <lang locale="zh_HK" value="護照簽發日期" />
+            <lang locale="zh_TW" value="護照簽發日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspNo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照号码" />
+            <lang locale="zh_HK" value="護照號碼" />
+            <lang locale="zh_TW" value="護照號碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPasspNo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照号码" />
+            <lang locale="zh_HK" value="護照號碼" />
+            <lang locale="zh_TW" value="護照號碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportAgence].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照颁发机构" />
+            <lang locale="zh_HK" value="護照頒發機構" />
+            <lang locale="zh_TW" value="護照頒發機構" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportAgence].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照颁发机构" />
+            <lang locale="zh_HK" value="護照頒發機構" />
+            <lang locale="zh_TW" value="護照頒發機構" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportCityCID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发地中文" />
+            <lang locale="zh_HK" value="護照簽發地中文" />
+            <lang locale="zh_TW" value="護照簽發地中文" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportCityCID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发地中文" />
+            <lang locale="zh_HK" value="護照簽發地中文" />
+            <lang locale="zh_TW" value="護照簽發地中文" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportCityF].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发地拼音" />
+            <lang locale="zh_HK" value="護照簽發地拼音" />
+            <lang locale="zh_TW" value="護照簽發地拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPassportCityF].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发地拼音" />
+            <lang locale="zh_HK" value="護照簽發地拼音" />
+            <lang locale="zh_TW" value="護照簽發地拼音" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPerSt].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员状态" />
+            <lang locale="zh_HK" value="人員狀態" />
+            <lang locale="zh_TW" value="人員狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPerSt].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员状态" />
+            <lang locale="zh_HK" value="人員狀態" />
+            <lang locale="zh_TW" value="人員狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPersonID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员主键" />
+            <lang locale="zh_HK" value="人員主鍵" />
+            <lang locale="zh_TW" value="人員主鍵" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPersonID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员主键" />
+            <lang locale="zh_HK" value="人員主鍵" />
+            <lang locale="zh_TW" value="人員主鍵" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPersonState].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员状态" />
+            <lang locale="zh_HK" value="人員狀態" />
+            <lang locale="zh_TW" value="人員狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPersonState].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员状态" />
+            <lang locale="zh_HK" value="人員狀態" />
+            <lang locale="zh_TW" value="人員狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPmtProfFr].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="指标工种法文" />
+            <lang locale="zh_HK" value="指標工種法文" />
+            <lang locale="zh_TW" value="指標工種法文" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPmtProfFr].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="指标工种法文" />
+            <lang locale="zh_HK" value="指標工種法文" />
+            <lang locale="zh_TW" value="指標工種法文" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPmtProjID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="指标项目" />
+            <lang locale="zh_HK" value="指標項目" />
+            <lang locale="zh_TW" value="指標項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFPmtProjID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合作单位" />
+            <lang locale="zh_HK" value="合作單位" />
+            <lang locale="zh_TW" value="合作單位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFQuProfID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="指标工种中文" />
+            <lang locale="zh_HK" value="指標工種中文" />
+            <lang locale="zh_TW" value="指標工種中文" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFQuProfID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际工种" />
+            <lang locale="zh_HK" value="實際工種" />
+            <lang locale="zh_TW" value="實際工種" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFRemark].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFRemark].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFResidence].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内联系详细地址" />
+            <lang locale="zh_HK" value="國內聯繫詳細地址" />
+            <lang locale="zh_TW" value="國內聯繫詳細地址" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFResidence].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内联系详细地址" />
+            <lang locale="zh_HK" value="國內聯繫詳細地址" />
+            <lang locale="zh_TW" value="國內聯繫詳細地址" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSendLaBuDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="递交劳动局时间" />
+            <lang locale="zh_HK" value="遞交勞動局時間" />
+            <lang locale="zh_TW" value="遞交勞動局時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSendLaBuDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="递交劳动局时间" />
+            <lang locale="zh_HK" value="遞交勞動局時間" />
+            <lang locale="zh_TW" value="遞交勞動局時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSex].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性别" />
+            <lang locale="zh_HK" value="性別" />
+            <lang locale="zh_TW" value="性別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSex].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性别" />
+            <lang locale="zh_HK" value="性別" />
+            <lang locale="zh_TW" value="性別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSignNum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="第几次报签" />
+            <lang locale="zh_HK" value="第幾次報簽" />
+            <lang locale="zh_TW" value="第幾次報簽" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSignNum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报签次数" />
+            <lang locale="zh_HK" value="報簽次數" />
+            <lang locale="zh_TW" value="報簽次數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSourceEntryID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源分录" />
+            <lang locale="zh_HK" value="來源分錄" />
+            <lang locale="zh_TW" value="來源分錄" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFSourceEntryID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源分录" />
+            <lang locale="zh_HK" value="來源分錄" />
+            <lang locale="zh_TW" value="來源分錄" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFTaskProjID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工作项目" />
+            <lang locale="zh_HK" value="工作項目" />
+            <lang locale="zh_TW" value="工作項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFTaskProjID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合作单位" />
+            <lang locale="zh_HK" value="合作單位" />
+            <lang locale="zh_TW" value="合作單位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFWorkExp].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工作经验" />
+            <lang locale="zh_HK" value="工作經驗" />
+            <lang locale="zh_TW" value="工作經驗" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[CFWorkExp].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工作经验" />
+            <lang locale="zh_HK" value="工作經驗" />
+            <lang locale="zh_TW" value="工作經驗" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FParentID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FParentID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FSeq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].columns.column[FSeq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号（定义为序列属性即使用{seq}）" />
+            <lang locale="zh_HK" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+            <lang locale="zh_TW" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.zjlw.certificates.app.CT_CER_AntiSignedEntry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

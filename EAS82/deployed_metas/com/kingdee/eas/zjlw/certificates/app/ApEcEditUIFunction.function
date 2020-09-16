@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functionObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.certificates.app</package>
+    <name>ApEcEditUIFunction</name>
+    <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].alias</alias>
+    <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].description</description>
+    <userDefined>true</userDefined>
+    <isBindSingleBizObject>false</isBindSingleBizObject>
+    <operations>
+        <operation>
+            <name>ActionSubmit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].description</description>
+            <reverseOperation />
+            <eventMethod>dfd2c083-00fa-1000-e000-001fc0a813e6</eventMethod>
+            <event>submitEvent</event>
+            <userDefined>true</userDefined>
+            <uiActionRef>
+                <id>50cf5dac-0105-1000-e000-00cac0a813a4uiaf</id>
+                <uiStatus>EDIT</uiStatus>
+                <webUIStatus />
+                <userDefined>true</userDefined>
+                <uiObjectRef>
+                    <key name="package" value="com.kingdee.eas.zjlw.certificates.client" />
+                    <key name="name" value="ApEcEditUI" />
+                </uiObjectRef>
+                <actionRefName>ActionSubmit</actionRefName>
+                <webActionRefName />
+                <parameters>
+                    <parameter>
+                        <name>billID</name>
+                        <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].alias</alias>
+                        <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].description</description>
+                        <direction>in</direction>
+                        <dataType>BOSUuid</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </parameters>
+            </uiActionRef>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="ApEc" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>internalAudit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[internalAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[internalAudit].description</description>
+            <reverseOperation />
+            <eventMethod>5689a3e1-b335-4b74-9718-d7d351364791</eventMethod>
+            <event>internalAuditEvent</event>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="ApEc" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>UNinternalAudit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNinternalAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNinternalAudit].description</description>
+            <reverseOperation />
+            <eventMethod>2d3e407c-1f71-47d5-a7a8-d7b2d0f980c0</eventMethod>
+            <event>UNinternalAuditEvent</event>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="ApEc" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>projectManeAudit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[projectManeAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[projectManeAudit].description</description>
+            <reverseOperation />
+            <eventMethod>bbce8906-00fa-1000-e000-000ec0a813e6</eventMethod>
+            <event>passAuditEvent</event>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="ApEc" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>UNprojectManeAudit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNprojectManeAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNprojectManeAudit].description</description>
+            <reverseOperation />
+            <eventMethod>bbce8906-00fa-1000-e000-000fc0a813e6</eventMethod>
+            <event>unpassAuditEvent</event>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="ApEc" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>LWAudit</name>
+            <alias>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[LWAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[LWAudit].description</description>
+            <reverseOperation />
+            <eventMethod>1d65b8ed-e03a-478f-b98f-fb35617ddeb6</eventMethod>
+            <event>LWAuditEvent</event>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.zjlw.certificates.app" />
+                <key name="name" value="ApEc" />
+            </entityObjectRef>
+        </operation>
+    </operations>
+    <resource>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].alias">
+            <lang locale="en_US" value="多分录基础单据编辑界面业务功能" />
+            <lang locale="zh_CN" value="申请护照方法-编辑界面编辑功能" />
+            <lang locale="zh_HK" value="申請護照方法-編輯介面編輯功能" />
+            <lang locale="zh_TW" value="申請護照方法-編輯介面編輯功能" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].description">
+            <lang locale="en_US" value="多分录基础单据编辑界面业务功能" />
+            <lang locale="zh_CN" value="多分录基础单据编辑界面业务功能" />
+            <lang locale="zh_HK" value="多分錄基礎單據編輯介面業務功能" />
+            <lang locale="zh_TW" value="多分錄基礎單據編輯介面業務功能" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].alias">
+            <lang locale="en_US" value="提交" />
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].description">
+            <lang locale="en_US" value="提交" />
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].alias">
+            <lang locale="en_US" value="单据内码" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[ActionSubmit].uiActionRef.parameters.parameter[billID].description">
+            <lang locale="en_US" value="单据内码" />
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[LWAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="劳务部审核" />
+            <lang locale="zh_HK" value="勞務部審核" />
+            <lang locale="zh_TW" value="勞務部審核" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[LWAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[LWAudit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNinternalAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内工作部审核不通过" />
+            <lang locale="zh_HK" value="國內工作部審核不通過" />
+            <lang locale="zh_TW" value="國內工作部審核不通過" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNinternalAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNinternalAudit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNprojectManeAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目经理审核不通过" />
+            <lang locale="zh_HK" value="項目經理審核不通過" />
+            <lang locale="zh_TW" value="項目經理審核不通過" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNprojectManeAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[UNprojectManeAudit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[internalAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内工作部审核" />
+            <lang locale="zh_HK" value="國內工作部審核" />
+            <lang locale="zh_TW" value="國內工作部審核" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[internalAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内工作部审核" />
+            <lang locale="zh_HK" value="國內工作部審核" />
+            <lang locale="zh_TW" value="國內工作部審核" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[internalAudit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[projectManeAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目经理审核" />
+            <lang locale="zh_HK" value="項目經理審核" />
+            <lang locale="zh_TW" value="項目經理審核" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[projectManeAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.zjlw.certificates.app.ApEcEditUIFunction].operations.operation[projectManeAudit].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</functionObject>
+

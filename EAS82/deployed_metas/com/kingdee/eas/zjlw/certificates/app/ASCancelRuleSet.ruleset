@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleSet xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.certificates.app</package>
+    <name>ASCancelRuleSet</name>
+    <alias>ruleSet[com.kingdee.eas.zjlw.certificates.app.ASCancelRuleSet].alias</alias>
+    <description>ruleSet[com.kingdee.eas.zjlw.certificates.app.ASCancelRuleSet].description</description>
+    <userDefined>true</userDefined>
+    <expressions>
+        <groupExpression>
+            <id>0b193b2c-8c61-4b34-b547-370f9090ff46</id>
+            <parentID />
+            <source>entrys.passportCityF=entrys.passportCityC.description</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>ef736fb8-a535-4402-b588-1339a96f97af</id>
+            <parentID>0b193b2c-8c61-4b34-b547-370f9090ff46</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>String</valueType>
+            <value />
+            <property>
+                <ownerID>bae10d48-00fb-4552-bbed-97d42b3a13ec</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>bae10d48-00fb-4552-bbed-97d42b3a13ec</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>kdtEntrys.getCell(rowIndex,"passportCityF")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>b3b60926-97bb-4d74-9994-5c8696483178</id>
+            <parentID>0b193b2c-8c61-4b34-b547-370f9090ff46</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>String</valueType>
+            <value />
+            <method>
+                <ownerID>c1456274-712f-46a5-8462-fb1e68a1d98f</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>61be6dc1-8c8b-426e-bdf5-146002489ef8</id>
+                        <expressionID>a67ae226-cdb7-4d8b-b9a2-b0a061a1aa4d</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>01f2e8fe-5e13-4893-8b9c-2aec940cfb12</id>
+                        <expressionID>efb59947-03b4-41c0-9476-acbf905f0928</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>c1456274-712f-46a5-8462-fb1e68a1d98f</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>a67ae226-cdb7-4d8b-b9a2-b0a061a1aa4d</id>
+            <parentID />
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>Object</valueType>
+            <value />
+            <property>
+                <ownerID>0f8372de-0069-4b41-8f37-2d172d38d610</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>0f8372de-0069-4b41-8f37-2d172d38d610</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)kdtEntrys.getCell(rowIndex,"passportCityC")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>efb59947-03b4-41c0-9476-acbf905f0928</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>description</value>
+        </simpleExpression>
+    </expressions>
+    <actions>
+        <action>
+            <id>a5967dfb-d81e-4cb6-becf-d59f9c6be8bc</id>
+            <name>entrys_passportCityF_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.certificates.app.ASCancelRuleSet].actions.action[entrys_passportCityF_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.certificates.app.ASCancelRuleSet].actions.action[entrys_passportCityF_ActionInfo].description</description>
+            <expressionID>0b193b2c-8c61-4b34-b547-370f9090ff46</expressionID>
+        </action>
+    </actions>
+    <resource>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.certificates.app.ASCancelRuleSet].actions.action[entrys_passportCityF_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_description" />
+            <lang locale="zh_HK" value="攜帶字段屬性_description" />
+            <lang locale="zh_TW" value="攜帶字段屬性_description" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.certificates.app.ASCancelRuleSet].actions.action[entrys_passportCityF_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.certificates.app.ASCancelRuleSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.certificates.app.ASCancelRuleSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</ruleSet>
+

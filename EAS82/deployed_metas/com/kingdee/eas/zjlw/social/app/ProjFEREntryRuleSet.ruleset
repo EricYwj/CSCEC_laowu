@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleSet xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.social.app</package>
+    <name>ProjFEREntryRuleSet</name>
+    <alias>ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].alias</alias>
+    <description>ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].description</description>
+    <userDefined>true</userDefined>
+    <expressions>
+        <groupExpression>
+            <id>ad7cb9a5-615c-4110-b375-d4e7029a5830</id>
+            <parentID />
+            <source>entrys.cooperation=entrys.cooperCode.name</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>0ffa4d0d-3767-4aa9-9f64-3239b606d7a1</id>
+            <parentID>ad7cb9a5-615c-4110-b375-d4e7029a5830</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>String</valueType>
+            <value />
+            <property>
+                <ownerID>991e3dc7-735f-4d32-b33b-81b95a49b8bf</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>991e3dc7-735f-4d32-b33b-81b95a49b8bf</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>kdtEntrys.getCell(rowIndex,"cooperation")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>6b64b135-8f46-4157-89d5-6d4277563067</id>
+            <parentID>ad7cb9a5-615c-4110-b375-d4e7029a5830</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>String</valueType>
+            <value />
+            <method>
+                <ownerID>08674699-b0e7-4982-859f-4db46a2209eb</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>c1fb1b60-718d-47f2-a2a3-89b0efc730bb</id>
+                        <expressionID>cf25cf96-d887-4962-8fa2-11118c19a0f5</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>c224417e-5920-4cd3-961e-34d317eefa24</id>
+                        <expressionID>ab23be2d-4f8c-41c4-a80d-8405d05993df</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>08674699-b0e7-4982-859f-4db46a2209eb</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>cf25cf96-d887-4962-8fa2-11118c19a0f5</id>
+            <parentID />
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>Object</valueType>
+            <value />
+            <property>
+                <ownerID>b5f7cf46-5a61-47b6-b04d-28bd10e870b1</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>b5f7cf46-5a61-47b6-b04d-28bd10e870b1</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)kdtEntrys.getCell(rowIndex,"cooperCode")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>ab23be2d-4f8c-41c4-a80d-8405d05993df</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>name</value>
+        </simpleExpression>
+    </expressions>
+    <actions>
+        <action>
+            <id>4c472f1c-cdf7-4c37-83ef-39edc11b3103</id>
+            <name>entrys_cooperation_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].actions.action[entrys_cooperation_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].actions.action[entrys_cooperation_ActionInfo].description</description>
+            <expressionID>ad7cb9a5-615c-4110-b375-d4e7029a5830</expressionID>
+        </action>
+    </actions>
+    <rules>
+        <conditionRule>
+            <name>entrys_cooperation_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].rules.conditionRule[entrys_cooperation_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].rules.conditionRule[entrys_cooperation_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="4c472f1c-cdf7-4c37-83ef-39edc11b3103" />
+                </action>
+            </actions>
+        </conditionRule>
+    </rules>
+    <resource>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].actions.action[entrys_cooperation_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_name" />
+            <lang locale="zh_HK" value="攜帶字段屬性_name" />
+            <lang locale="zh_TW" value="攜帶字段屬性_name" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].actions.action[entrys_cooperation_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].rules.conditionRule[entrys_cooperation_RuleInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_name" />
+            <lang locale="zh_HK" value="攜帶字段屬性_name" />
+            <lang locale="zh_TW" value="攜帶字段屬性_name" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].rules.conditionRule[entrys_cooperation_RuleInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].rules.conditionRule[entrys_cooperation_RuleInfo].extendedProperty.columnName">
+            <lang locale="en_US" value="cooperCode" />
+            <lang locale="zh_CN" value="cooperCode" />
+            <lang locale="zh_TW" value="cooperCode" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.social.app.ProjFEREntryRuleSet].rules.conditionRule[entrys_cooperation_RuleInfo].extendedProperty.userDefined">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</ruleSet>
+

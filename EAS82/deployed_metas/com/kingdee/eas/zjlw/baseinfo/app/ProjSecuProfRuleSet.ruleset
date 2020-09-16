@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleSet xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.baseinfo.app</package>
+    <name>ProjSecuProfRuleSet</name>
+    <alias>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].alias</alias>
+    <description>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].description</description>
+    <userDefined>true</userDefined>
+    <expressions>
+        <groupExpression>
+            <id>7d4e42b4-353f-4b19-a43e-d4bb919d8ee8</id>
+            <parentID />
+            <source>norBasePay=type.wageStandard</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>721df36f-096b-4973-bd3f-2ebbcc436fa8</id>
+            <parentID>7d4e42b4-353f-4b19-a43e-d4bb919d8ee8</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <property>
+                <ownerID>873ad9f6-eaaf-4e4f-83ae-575299fee239</ownerID>
+                <name>value</name>
+                <type>java.lang.Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>873ad9f6-eaaf-4e4f-83ae-575299fee239</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>txtnorBasePay</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>5708407e-18cf-4f90-80e4-a80df626d234</id>
+            <parentID>7d4e42b4-353f-4b19-a43e-d4bb919d8ee8</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <method>
+                <ownerID>555b3d24-e9f0-4dac-b3ab-5f18345e39b5</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>106b141f-a66c-402c-b875-a6a5b0230f54</id>
+                        <expressionID>3a73a637-0c64-477d-a3bc-f93da77c49f7</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>0582b25c-6231-4ee1-ad04-fe8375c0d4b8</id>
+                        <expressionID>b67e8e28-8301-4dce-9846-aee500835bb9</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>555b3d24-e9f0-4dac-b3ab-5f18345e39b5</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>3a73a637-0c64-477d-a3bc-f93da77c49f7</id>
+            <parentID />
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>Object</valueType>
+            <value />
+            <method>
+                <ownerID>fb8e49d6-24bf-4f37-8b72-a765bf974de8</ownerID>
+                <name>getData</name>
+                <type>Object</type>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>fb8e49d6-24bf-4f37-8b72-a765bf974de8</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)prmttype</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>b67e8e28-8301-4dce-9846-aee500835bb9</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>wageStandard</value>
+        </simpleExpression>
+        <groupExpression>
+            <id>99f91e28-32ef-4516-8ec1-962a48d6b158</id>
+            <parentID />
+            <source>nBasePay=profType.basePay</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>57219376-ca5f-4425-b88e-cd08974fc36e</id>
+            <parentID>99f91e28-32ef-4516-8ec1-962a48d6b158</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <property>
+                <ownerID>16188a6e-dd25-459c-9133-3d38ef93e709</ownerID>
+                <name>value</name>
+                <type>java.lang.Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>16188a6e-dd25-459c-9133-3d38ef93e709</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>txtnBasePay</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>f10a5a45-1afe-40ba-b30e-f0a44a777fdf</id>
+            <parentID>99f91e28-32ef-4516-8ec1-962a48d6b158</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <method>
+                <ownerID>066f5e39-62aa-4ea0-bdbc-535c31e213de</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>0d3d3d19-9efc-4932-8fd8-3f79ad57b832</id>
+                        <expressionID>627d370e-52e9-498d-92b7-2902661beb67</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>7bda2bd5-6bdb-45d3-824e-498681082a20</id>
+                        <expressionID>b9c19d54-248a-48e7-bfec-412e7bee5a37</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>066f5e39-62aa-4ea0-bdbc-535c31e213de</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>627d370e-52e9-498d-92b7-2902661beb67</id>
+            <parentID />
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>Object</valueType>
+            <value />
+            <method>
+                <ownerID>02263854-e077-47d0-a62c-8123d74420af</ownerID>
+                <name>getData</name>
+                <type>Object</type>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>02263854-e077-47d0-a62c-8123d74420af</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)prmtprofType</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>b9c19d54-248a-48e7-bfec-412e7bee5a37</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>basePay</value>
+        </simpleExpression>
+        <groupExpression>
+            <id>471ebfa9-9933-46b1-9272-4e5f15c74066</id>
+            <parentID />
+            <source>nBasePay=profType.basePay</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>9c55effd-6a03-4cfa-836e-37554fe78e61</id>
+            <parentID>471ebfa9-9933-46b1-9272-4e5f15c74066</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <property>
+                <ownerID>82f4692f-1188-4ab8-9f6d-5d18473de18f</ownerID>
+                <name>value</name>
+                <type>java.lang.Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>82f4692f-1188-4ab8-9f6d-5d18473de18f</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>txtnBasePay</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>1aaad0ad-a714-42ee-8e46-b6183c69078f</id>
+            <parentID>471ebfa9-9933-46b1-9272-4e5f15c74066</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>BigDecimal</valueType>
+            <value />
+            <method>
+                <ownerID>39563679-0502-49ee-a9bb-4c34c5ad21b2</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>e4612719-bcf6-44eb-a5eb-9c65a3227bd2</id>
+                        <expressionID>a9338cd5-c281-46bf-840d-b1f4d65aa3d7</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>4772bd6b-a933-44a8-9097-14b6eb92150f</id>
+                        <expressionID>e70f291c-7511-422d-bb7b-9a55632286d8</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>39563679-0502-49ee-a9bb-4c34c5ad21b2</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>a9338cd5-c281-46bf-840d-b1f4d65aa3d7</id>
+            <parentID />
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>Object</valueType>
+            <value />
+            <method>
+                <ownerID>0b3f673a-8a1d-4767-8a5e-9a9e8a43c688</ownerID>
+                <name>getData</name>
+                <type>Object</type>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>0b3f673a-8a1d-4767-8a5e-9a9e8a43c688</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)prmtprofType</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>e70f291c-7511-422d-bb7b-9a55632286d8</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>basePay</value>
+        </simpleExpression>
+    </expressions>
+    <actions>
+        <action>
+            <id>1f50cbc6-aac5-4d19-bbe9-bc1352a3d418</id>
+            <name>ProjSecuProf_norBasePay_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_norBasePay_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_norBasePay_ActionInfo].description</description>
+            <expressionID>7d4e42b4-353f-4b19-a43e-d4bb919d8ee8</expressionID>
+        </action>
+        <action>
+            <id>f7b2da18-34de-46fa-8b8b-b524705b1904</id>
+            <name>ProjSecuProf_nBasePay_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_nBasePay_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_nBasePay_ActionInfo].description</description>
+            <expressionID>99f91e28-32ef-4516-8ec1-962a48d6b158</expressionID>
+        </action>
+        <action>
+            <id>594613d9-13db-45cb-80c0-8180b7111c96</id>
+            <name>ProjSecuProf_nBasePay_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_nBasePay_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_nBasePay_ActionInfo].description</description>
+            <expressionID>471ebfa9-9933-46b1-9272-4e5f15c74066</expressionID>
+        </action>
+    </actions>
+    <rules>
+        <conditionRule>
+            <name>ProjSecuProf_nBasePay_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].rules.conditionRule[ProjSecuProf_nBasePay_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].rules.conditionRule[ProjSecuProf_nBasePay_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="594613d9-13db-45cb-80c0-8180b7111c96" />
+                </action>
+            </actions>
+        </conditionRule>
+    </rules>
+    <resource>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_nBasePay_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_basePay" />
+            <lang locale="zh_HK" value="攜帶字段屬性_basePay" />
+            <lang locale="zh_TW" value="攜帶字段屬性_basePay" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_nBasePay_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_norBasePay_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_wageStandard" />
+            <lang locale="zh_HK" value="攜帶字段屬性_wageStandard" />
+            <lang locale="zh_TW" value="攜帶字段屬性_wageStandard" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].actions.action[ProjSecuProf_norBasePay_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].rules.conditionRule[ProjSecuProf_nBasePay_RuleInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_basePay" />
+            <lang locale="zh_HK" value="攜帶字段屬性_basePay" />
+            <lang locale="zh_TW" value="攜帶字段屬性_basePay" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].rules.conditionRule[ProjSecuProf_nBasePay_RuleInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].rules.conditionRule[ProjSecuProf_nBasePay_RuleInfo].extendedProperty.columnName">
+            <lang locale="en_US" value="profType" />
+            <lang locale="zh_CN" value="profType" />
+            <lang locale="zh_TW" value="profType" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.zjlw.baseinfo.app.ProjSecuProfRuleSet].rules.conditionRule[ProjSecuProf_nBasePay_RuleInfo].extendedProperty.userDefined">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</ruleSet>
+

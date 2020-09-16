@@ -1,0 +1,3945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.personinfo.app</package>
+    <name>PersonHistoryQuery</name>
+    <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.zjlw.personinfo.PersonHistory</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>PersonHistory</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[PersonHistory].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistory" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>permitProfession</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[permitProfession].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.zjlw.baseinfo.app" />
+                <key name="name" value="ProjectWork" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>workOrg</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[workOrg].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>permitOrg</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[permitOrg].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>cooperation</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[cooperation].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>nation</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[nation].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Country" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>coupleNation</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[coupleNation].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Country" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>passportCity</name>
+            <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[passportCity].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Province" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[auditor.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[handler.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[handler.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Fivouchered</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[Fivouchered].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="Fivouchered" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Fivouchered" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>nameCN</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nameCN].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7aaad011-a957-4f3b-91fc-0b295498cbf8</key>
+                    <parentUnit>
+                        <key name="name" value="nameCN" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="nameCN" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>sex</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[sex].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cc957dcc-ece7-4512-9988-32adfb7fa453</key>
+                    <parentUnit>
+                        <key name="name" value="sex" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="sex" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>birthDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>873998b4-1b31-44e5-8e1f-282424e86830</key>
+                    <parentUnit>
+                        <key name="name" value="birthDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="birthDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>passportNo</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>835f7d96-be4d-4f77-be28-53c2acf499ea</key>
+                    <parentUnit>
+                        <key name="name" value="passportNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>passportIssueDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportIssueDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bbfd5d84-a252-4068-bcc6-758fd39c7ddc</key>
+                    <parentUnit>
+                        <key name="name" value="passportIssueDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportIssueDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>passportExpireDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportExpireDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>837d03e9-c1be-47c4-93ff-23909cfa17bd</key>
+                    <parentUnit>
+                        <key name="name" value="passportExpireDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportExpireDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>birthPlaceCn</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthPlaceCn].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2cc95f9f-16c4-4921-9282-61aa795ba4d1</key>
+                    <parentUnit>
+                        <key name="name" value="birthPlaceCn" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="birthPlaceCn" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>birthPlaceFr</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthPlaceFr].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1ddb632e-4fd0-4f59-aa62-d9e7647adaff</key>
+                    <parentUnit>
+                        <key name="name" value="birthPlaceFr" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="birthPlaceFr" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>fatherName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[fatherName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9e23cb22-7fe5-4a7b-873f-50d26160f1b3</key>
+                    <parentUnit>
+                        <key name="name" value="fatherName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="fatherName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>fatherNameAlphabet</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[fatherNameAlphabet].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3f6d5cb0-589a-43d2-a16b-f8e0fb052b29</key>
+                    <parentUnit>
+                        <key name="name" value="fatherNameAlphabet" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="fatherNameAlphabet" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>motherName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[motherName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8870ce4d-9c1c-4874-820f-46d8a7c04b38</key>
+                    <parentUnit>
+                        <key name="name" value="motherName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="motherName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>motherNameAlphabet</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[motherNameAlphabet].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bb46b0de-1388-4628-88eb-4f3619c737f8</key>
+                    <parentUnit>
+                        <key name="name" value="motherNameAlphabet" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="motherNameAlphabet" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>coupleName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f7d1feeb-9d54-4d41-bdee-98c8113ba3bc</key>
+                    <parentUnit>
+                        <key name="name" value="coupleName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="coupleName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>coupleNameAlphabet</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNameAlphabet].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>adbd57d1-e4e1-4733-82cc-60423f18f5af</key>
+                    <parentUnit>
+                        <key name="name" value="coupleNameAlphabet" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="coupleNameAlphabet" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>coupleBirthDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleBirthDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bed93bef-55b4-4036-8165-405f0b0cd1b2</key>
+                    <parentUnit>
+                        <key name="name" value="coupleBirthDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="coupleBirthDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>coupleBirthPlace</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleBirthPlace].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e3ee95eb-8f7a-4471-b271-98a1adaffac7</key>
+                    <parentUnit>
+                        <key name="name" value="coupleBirthPlace" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="coupleBirthPlace" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>coupleWorkPlace</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleWorkPlace].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f7b5a48a-8a46-4812-a7dd-3b7bb176a22e</key>
+                    <parentUnit>
+                        <key name="name" value="coupleWorkPlace" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="coupleWorkPlace" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>innerAddress</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[innerAddress].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5966b6bb-9cfe-42c9-ad3a-c00efb3827bb</key>
+                    <parentUnit>
+                        <key name="name" value="innerAddress" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="innerAddress" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>contactway</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[contactway].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7e249aca-08bc-4c13-81e5-2f874e82f04d</key>
+                    <parentUnit>
+                        <key name="name" value="contactway" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="contactway" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>oldPassport</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[oldPassport].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>da0096d4-d5bc-450b-b344-5ff75b0e2168</key>
+                    <parentUnit>
+                        <key name="name" value="oldPassport" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="oldPassport" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>remark</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[remark].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6d52c061-7f20-467b-ab77-a4da41e8f1c0</key>
+                    <parentUnit>
+                        <key name="name" value="remark" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="remark" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bsnisState</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[bsnisState].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>26652f37-7a25-403e-bf47-1e09fafbbc79</key>
+                    <parentUnit>
+                        <key name="name" value="bsnisState" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bsnisState" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>visaType</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[visaType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d1048c30-2b37-4c74-ba48-874d3518803f</key>
+                    <parentUnit>
+                        <key name="name" value="visaType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="visaType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>firstNameAlp</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[firstNameAlp].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>670c92b2-7799-464a-b9ac-ec2dc469697a</key>
+                    <parentUnit>
+                        <key name="name" value="firstNameAlp" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="firstNameAlp" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastNameApl</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastNameApl].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>52975f54-a225-4cdc-a689-37ffb961d005</key>
+                    <parentUnit>
+                        <key name="name" value="lastNameApl" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastNameApl" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>permitProfession.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitProfession.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>901b4528-32ae-4a14-8804-465e5bb95c88</key>
+                    <parentUnit>
+                        <key name="name" value="permitProfession.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="permitProfession" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>3f4bd152-ae4a-493c-80cc-a975fc06c3c3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[3f4bd152-ae4a-493c-80cc-a975fc06c3c3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>19c2fe52-2844-4646-aa08-d86649df5a76</key>
+                    <parentUnit>
+                        <key name="name" value="3f4bd152-ae4a-493c-80cc-a975fc06c3c3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="permitProfession" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>1fa58c74-2998-465d-9caf-1a7b49067b9e</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[1fa58c74-2998-465d-9caf-1a7b49067b9e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>cdc44d16-f698-483e-8e01-2f0c8bb6a6fd</key>
+                    <parentUnit>
+                        <key name="name" value="1fa58c74-2998-465d-9caf-1a7b49067b9e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="permitProfession" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>workOrg.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[workOrg.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0ec8bfa6-5cae-4790-bc59-22e43ca71af8</key>
+                    <parentUnit>
+                        <key name="name" value="workOrg.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="workOrg" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>27bf0b75-961e-4f2a-86ff-52a3670eec8e</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[27bf0b75-961e-4f2a-86ff-52a3670eec8e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>2edd3a36-790e-45cb-93d6-57552a1f8ddd</key>
+                    <parentUnit>
+                        <key name="name" value="27bf0b75-961e-4f2a-86ff-52a3670eec8e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="workOrg" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>1cb156cd-c6d6-4de2-b044-e121e5719fb5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[1cb156cd-c6d6-4de2-b044-e121e5719fb5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>058ea475-4f76-42b3-86f3-17ced2abd233</key>
+                    <parentUnit>
+                        <key name="name" value="1cb156cd-c6d6-4de2-b044-e121e5719fb5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="workOrg" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>permitOrg.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitOrg.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1987dcb1-aa87-4d3d-a361-a0e9544430bd</key>
+                    <parentUnit>
+                        <key name="name" value="permitOrg.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="permitOrg" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>2706cdd7-2d4e-4d5e-86ea-e7134ef22fa1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[2706cdd7-2d4e-4d5e-86ea-e7134ef22fa1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>076dfe2a-bd1f-4cc1-b454-3c22445bba9d</key>
+                    <parentUnit>
+                        <key name="name" value="2706cdd7-2d4e-4d5e-86ea-e7134ef22fa1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="permitOrg" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a222ea36-de5b-4252-b66d-fa778298295c</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[a222ea36-de5b-4252-b66d-fa778298295c].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>e27ee487-1a9d-4ebc-adb0-419daa824a41</key>
+                    <parentUnit>
+                        <key name="name" value="a222ea36-de5b-4252-b66d-fa778298295c" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="permitOrg" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>cooperation.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[cooperation.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6abdddac-3fca-4051-84c7-bf1339790143</key>
+                    <parentUnit>
+                        <key name="name" value="cooperation.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="cooperation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>a95fed05-204e-474e-aa3a-8a3f2714852a</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[a95fed05-204e-474e-aa3a-8a3f2714852a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>2113b759-5c5b-4c6f-8389-2883176f315b</key>
+                    <parentUnit>
+                        <key name="name" value="a95fed05-204e-474e-aa3a-8a3f2714852a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cooperation" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>6256ed42-667b-4315-b740-2a7b233f7111</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[6256ed42-667b-4315-b740-2a7b233f7111].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>2a6bd62f-839d-4a2b-9a3f-97ec0897bc43</key>
+                    <parentUnit>
+                        <key name="name" value="6256ed42-667b-4315-b740-2a7b233f7111" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="cooperation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>passportInst</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportInst].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8e1f51a3-734c-4451-8af9-b862dabf60b4</key>
+                    <parentUnit>
+                        <key name="name" value="passportInst" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportInst" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>merState</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[merState].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a567781d-0f33-4014-a738-ba6331d10c18</key>
+                    <parentUnit>
+                        <key name="name" value="merState" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="merState" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>idNum</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[idNum].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c5efb8c3-48b5-4ad0-a4bb-e8681cff6a89</key>
+                    <parentUnit>
+                        <key name="name" value="idNum" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="idNum" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>realProf</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[realProf].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>27cc4b66-c8d1-4df1-8310-3774dd973e70</key>
+                    <parentUnit>
+                        <key name="name" value="realProf" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="realProf" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>nation.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nation.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1d7e45b5-6926-4905-837e-7bcb0ed5a496</key>
+                    <parentUnit>
+                        <key name="name" value="nation.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="nation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>df9bca53-cff5-436a-81cf-afaec92b5ea2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[df9bca53-cff5-436a-81cf-afaec92b5ea2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>70e5dd94-6fa3-4575-8e81-abab6610afb8</key>
+                    <parentUnit>
+                        <key name="name" value="df9bca53-cff5-436a-81cf-afaec92b5ea2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="nation" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>4afd6c2f-d4ba-4a41-854d-24d829bd383a</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[4afd6c2f-d4ba-4a41-854d-24d829bd383a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>b563442e-7a92-465c-ac26-f88b0854a553</key>
+                    <parentUnit>
+                        <key name="name" value="4afd6c2f-d4ba-4a41-854d-24d829bd383a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="nation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>coupleNation.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNation.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4f5df845-e08d-40f3-a2bc-e4b4d8fe3b9e</key>
+                    <parentUnit>
+                        <key name="name" value="coupleNation.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="coupleNation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>547216dd-d23f-4701-a742-4880ba6f7e75</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[547216dd-d23f-4701-a742-4880ba6f7e75].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>41861359-6824-4395-9841-f2c228cbcf49</key>
+                    <parentUnit>
+                        <key name="name" value="547216dd-d23f-4701-a742-4880ba6f7e75" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="coupleNation" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>94154c45-a465-45b9-9891-fc9a2417056a</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[94154c45-a465-45b9-9891-fc9a2417056a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>34c8b154-27df-4ae2-979d-95b899c99ed1</key>
+                    <parentUnit>
+                        <key name="name" value="94154c45-a465-45b9-9891-fc9a2417056a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="coupleNation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>securityNo</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[securityNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7e5ceaf0-3cf7-4f61-a9de-88bf80bda525</key>
+                    <parentUnit>
+                        <key name="name" value="securityNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="securityNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>hBsnisState</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[hBsnisState].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a51c4832-4963-4d67-a1e9-377f2251880f</key>
+                    <parentUnit>
+                        <key name="name" value="hBsnisState" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="hBsnisState" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>passportCity.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCity.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c97339b5-c844-4651-b3df-62964b8fbf64</key>
+                    <parentUnit>
+                        <key name="name" value="passportCity.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="passportCity" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>0ad6977d-e7fc-4323-ba07-68ec9c4aa2d0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[0ad6977d-e7fc-4323-ba07-68ec9c4aa2d0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>4916a2ce-17d3-4fce-bc04-81fab27c941e</key>
+                    <parentUnit>
+                        <key name="name" value="0ad6977d-e7fc-4323-ba07-68ec9c4aa2d0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportCity" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3eb28ae5-efb2-44e9-84f8-e7d14f825702</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[3eb28ae5-efb2-44e9-84f8-e7d14f825702].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>f6ee973e-16b1-4b2a-abe3-2dd777712c5f</key>
+                    <parentUnit>
+                        <key name="name" value="3eb28ae5-efb2-44e9-84f8-e7d14f825702" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="passportCity" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>passportCityF</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCityF].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ca6dc363-b92d-4f61-a15c-cb17f4024f3a</key>
+                    <parentUnit>
+                        <key name="name" value="passportCityF" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PersonHistory" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="passportCityF" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+            <key name="name" value="PersonHistoryQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>e433a4b9-4c3e-43d8-9670-d0f0298a82e0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="permitProfession" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>a6ac0fef-ed5d-4fef-aec4-7547cf7b82eb</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="3f4bd152-ae4a-493c-80cc-a975fc06c3c3" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="1fa58c74-2998-465d-9caf-1a7b49067b9e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="e433a4b9-4c3e-43d8-9670-d0f0298a82e0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>a33c8fa2-f510-4847-9bba-2b13b3586e3f</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="workOrg" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>6a8915c1-145e-4882-8737-b0233248a57b</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="27bf0b75-961e-4f2a-86ff-52a3670eec8e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="1cb156cd-c6d6-4de2-b044-e121e5719fb5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="a33c8fa2-f510-4847-9bba-2b13b3586e3f" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>d035c32e-542f-42d2-8218-a3c2b1107c1c</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="permitOrg" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>c410592a-99c8-4750-a175-82717ab64ea6</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="2706cdd7-2d4e-4d5e-86ea-e7134ef22fa1" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="a222ea36-de5b-4252-b66d-fa778298295c" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="d035c32e-542f-42d2-8218-a3c2b1107c1c" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>e5f1afda-cc18-42d3-a3dd-34a4d2f1b8e4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="cooperation" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>3f545c7d-91c5-4898-acce-df557615a7cd</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="a95fed05-204e-474e-aa3a-8a3f2714852a" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="6256ed42-667b-4315-b740-2a7b233f7111" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="e5f1afda-cc18-42d3-a3dd-34a4d2f1b8e4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>8e3671bb-ba87-4882-8b16-3e82e38ad5c0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="nation" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>314dccb7-f1bc-41f0-9430-da15d2f31682</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="df9bca53-cff5-436a-81cf-afaec92b5ea2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="4afd6c2f-d4ba-4a41-854d-24d829bd383a" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="8e3671bb-ba87-4882-8b16-3e82e38ad5c0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>3a78afa2-9dc4-4026-a33e-e33e2b6b8d45</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="coupleNation" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>30f80450-d7fe-4b0a-afb6-a5809e428fac</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="547216dd-d23f-4701-a742-4880ba6f7e75" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="94154c45-a465-45b9-9891-fc9a2417056a" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="3a78afa2-9dc4-4026-a33e-e33e2b6b8d45" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+        <join>
+            <name>055f6540-2e5d-4eb3-9cc5-69e86623325c</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PersonHistory" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="passportCity" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>792682d8-2df1-4f19-bafd-7ff079a9edb8</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="0ad6977d-e7fc-4323-ba07-68ec9c4aa2d0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3eb28ae5-efb2-44e9-84f8-e7d14f825702" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="055f6540-2e5d-4eb3-9cc5-69e86623325c" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.zjlw.personinfo.app" />
+                <key name="name" value="PersonHistoryQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员历史信息" />
+            <lang locale="zh_HK" value="人員歷史信息" />
+            <lang locale="zh_TW" value="人員歷史信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="多分录基础单据模板" />
+            <lang locale="zh_CN" value="多分录基础单据模板" />
+            <lang locale="zh_TW" value="多分录基础单据模板" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多分录基础单据查询" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢" />
+            <lang locale="zh_TW" value="多分錄基礎單據查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.zjlw.personinfo.client.PersoninfoResource.PersonHistoryQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.zjlw.personinfo.client.PersoninfoResource.PersonHistoryQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.zjlw.personinfo.client.PersoninfoResource.PersonHistoryQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="人员历史信息" />
+            <lang locale="zh_CN" value="人员历史信息" />
+            <lang locale="zh_TW" value="人员历史信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[PersonHistory].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[cooperation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[coupleNation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[handler].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[nation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[passportCity].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[permitOrg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[permitProfession].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].subObjects.subEntity[workOrg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[0ad6977d-e7fc-4323-ba07-68ec9c4aa2d0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[1cb156cd-c6d6-4de2-b044-e121e5719fb5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[1fa58c74-2998-465d-9caf-1a7b49067b9e].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[2706cdd7-2d4e-4d5e-86ea-e7134ef22fa1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[27bf0b75-961e-4f2a-86ff-52a3670eec8e].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[3eb28ae5-efb2-44e9-84f8-e7d14f825702].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[3f4bd152-ae4a-493c-80cc-a975fc06c3c3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[4afd6c2f-d4ba-4a41-854d-24d829bd383a].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[547216dd-d23f-4701-a742-4880ba6f7e75].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[6256ed42-667b-4315-b740-2a7b233f7111].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[94154c45-a465-45b9-9891-fc9a2417056a].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[a222ea36-de5b-4252-b66d-fa778298295c].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[a95fed05-204e-474e-aa3a-8a3f2714852a].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.propertyUnit[df9bca53-cff5-436a-81cf-afaec92b5ea2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[Fivouchered].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[Fivouchered].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[Fivouchered].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[auditor.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[auditor.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生日期" />
+            <lang locale="zh_HK" value="出生日期" />
+            <lang locale="zh_TW" value="出生日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthPlaceCn].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生地（中文）" />
+            <lang locale="zh_HK" value="出生地（中文）" />
+            <lang locale="zh_TW" value="出生地（中文）" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthPlaceCn].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthPlaceCn].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthPlaceFr].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出生地（法文）" />
+            <lang locale="zh_HK" value="出生地（法文）" />
+            <lang locale="zh_TW" value="出生地（法文）" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthPlaceFr].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[birthPlaceFr].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[bizDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[bsnisState].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员业务状态" />
+            <lang locale="zh_HK" value="人員業務狀態" />
+            <lang locale="zh_TW" value="人員業務狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[bsnisState].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[bsnisState].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[contactway].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内联系方式" />
+            <lang locale="zh_HK" value="國內聯繫方式" />
+            <lang locale="zh_TW" value="國內聯繫方式" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[contactway].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[contactway].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[cooperation.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合作单位" />
+            <lang locale="zh_HK" value="合作單位" />
+            <lang locale="zh_TW" value="合作單位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[cooperation.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[cooperation.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[cooperation.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleBirthDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶出生日期" />
+            <lang locale="zh_HK" value="配偶出生日期" />
+            <lang locale="zh_TW" value="配偶出生日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleBirthDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleBirthDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleBirthPlace].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶出生地" />
+            <lang locale="zh_HK" value="配偶出生地" />
+            <lang locale="zh_TW" value="配偶出生地" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleBirthPlace].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleBirthPlace].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNameAlphabet].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶姓名拼音" />
+            <lang locale="zh_HK" value="配偶姓名拼音" />
+            <lang locale="zh_TW" value="配偶姓名拼音" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNameAlphabet].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNameAlphabet].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶姓名" />
+            <lang locale="zh_HK" value="配偶姓名" />
+            <lang locale="zh_TW" value="配偶姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNation.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶国籍" />
+            <lang locale="zh_HK" value="配偶國籍" />
+            <lang locale="zh_TW" value="配偶國籍" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNation.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNation.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleNation.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleWorkPlace].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配偶工作单位或项目" />
+            <lang locale="zh_HK" value="配偶工作單位或項目" />
+            <lang locale="zh_TW" value="配偶工作單位或項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleWorkPlace].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[coupleWorkPlace].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[fatherNameAlphabet].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父亲姓名拼音" />
+            <lang locale="zh_HK" value="父親姓名拼音" />
+            <lang locale="zh_TW" value="父親姓名拼音" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[fatherNameAlphabet].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[fatherNameAlphabet].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[fatherName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父亲姓名" />
+            <lang locale="zh_HK" value="父親姓名" />
+            <lang locale="zh_TW" value="父親姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[fatherName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[fatherName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[firstNameAlp].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="姓拼音" />
+            <lang locale="zh_HK" value="姓拼音" />
+            <lang locale="zh_TW" value="姓拼音" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[firstNameAlp].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[firstNameAlp].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[hBsnisState].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原人员业务状态" />
+            <lang locale="zh_HK" value="原人員業務狀態" />
+            <lang locale="zh_TW" value="原人員業務狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[hBsnisState].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[hBsnisState].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[handler.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[handler.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[idNum].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="身份证号码" />
+            <lang locale="zh_HK" value="身份證號碼" />
+            <lang locale="zh_TW" value="身份證號碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[idNum].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[idNum].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[innerAddress].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国内联系详细地址" />
+            <lang locale="zh_HK" value="國內聯繫詳細地址" />
+            <lang locale="zh_TW" value="國內聯繫詳細地址" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[innerAddress].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[innerAddress].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastNameApl].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名拼音" />
+            <lang locale="zh_HK" value="名拼音" />
+            <lang locale="zh_TW" value="名拼音" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastNameApl].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastNameApl].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[merState].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="婚姻状态" />
+            <lang locale="zh_HK" value="婚姻狀態" />
+            <lang locale="zh_TW" value="婚姻狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[merState].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[merState].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[motherNameAlphabet].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="母亲姓名拼音" />
+            <lang locale="zh_HK" value="母親姓名拼音" />
+            <lang locale="zh_TW" value="母親姓名拼音" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[motherNameAlphabet].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[motherNameAlphabet].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[motherName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="母亲姓名" />
+            <lang locale="zh_HK" value="母親姓名" />
+            <lang locale="zh_TW" value="母親姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[motherName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[motherName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nameCN].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="中文姓名" />
+            <lang locale="zh_HK" value="中文姓名" />
+            <lang locale="zh_TW" value="中文姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nameCN].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nameCN].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nation.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="国籍" />
+            <lang locale="zh_HK" value="國籍" />
+            <lang locale="zh_TW" value="國籍" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nation.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nation.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[nation.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[oldPassport].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="旧护照号码" />
+            <lang locale="zh_HK" value="舊護照號碼" />
+            <lang locale="zh_TW" value="舊護照號碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[oldPassport].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[oldPassport].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCity.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发地中文" />
+            <lang locale="zh_HK" value="護照簽發地中文" />
+            <lang locale="zh_TW" value="護照簽發地中文" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCity.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCity.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCity.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCityF].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发地拼音" />
+            <lang locale="zh_HK" value="護照簽發地拼音" />
+            <lang locale="zh_TW" value="護照簽發地拼音" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCityF].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportCityF].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportExpireDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照失效日期" />
+            <lang locale="zh_HK" value="護照失效日期" />
+            <lang locale="zh_TW" value="護照失效日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportExpireDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportExpireDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportInst].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照颁发机构" />
+            <lang locale="zh_HK" value="護照頒發機構" />
+            <lang locale="zh_TW" value="護照頒發機構" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportInst].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportInst].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportIssueDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照签发日期" />
+            <lang locale="zh_HK" value="護照簽發日期" />
+            <lang locale="zh_TW" value="護照簽發日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportIssueDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportIssueDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportNo].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="护照号码" />
+            <lang locale="zh_HK" value="護照號碼" />
+            <lang locale="zh_TW" value="護照號碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportNo].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[passportNo].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitOrg.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="指标项目" />
+            <lang locale="zh_HK" value="指標項目" />
+            <lang locale="zh_TW" value="指標項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitOrg.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitOrg.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitOrg.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitProfession.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="指标工种" />
+            <lang locale="zh_HK" value="指標工種" />
+            <lang locale="zh_TW" value="指標工種" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitProfession.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitProfession.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[permitProfession.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[realProf].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际工种" />
+            <lang locale="zh_HK" value="實際工種" />
+            <lang locale="zh_TW" value="實際工種" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[realProf].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[realProf].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[remark].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[remark].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[remark].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[securityNo].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="社保号" />
+            <lang locale="zh_HK" value="社保號" />
+            <lang locale="zh_TW" value="社保號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[securityNo].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[securityNo].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[sex].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="性别 " />
+            <lang locale="zh_HK" value="性別 " />
+            <lang locale="zh_TW" value="性別 " />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[sex].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[sex].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[visaType].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="签证类型" />
+            <lang locale="zh_HK" value="簽證類型" />
+            <lang locale="zh_TW" value="簽證類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[visaType].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[visaType].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[workOrg.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工作项目" />
+            <lang locale="zh_HK" value="工作項目" />
+            <lang locale="zh_TW" value="工作項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[workOrg.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[workOrg.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.zjlw.personinfo.app.PersonHistoryQuery].units.queryField[workOrg.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

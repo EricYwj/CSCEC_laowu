@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.zjlw.attendance.app</package>
+    <name>DBUtilFacade</name>
+    <alias>facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].alias</alias>
+    <description>facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>91186DFE</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.zjlw.attendance.DBUtilFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.zjlw.attendance.app.DBUtilFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>dbQuery</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].methods.method[dbQuery].alias</alias>
+            <description>facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].methods.method[dbQuery].description</description>
+            <innerID>774ebccf-75cf-414b-b9f7-59bd79b533da</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>sql</name>
+                    <alias>facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].methods.method[dbQuery].parameters.parameter[sql].alias</alias>
+                    <description>facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].methods.method[dbQuery].parameters.parameter[sql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库操作" />
+            <lang locale="zh_HK" value="資料庫操作" />
+            <lang locale="zh_TW" value="資料庫操作" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].methods.method[dbQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].methods.method[dbQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].methods.method[dbQuery].parameters.parameter[sql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.zjlw.attendance.app.DBUtilFacade].methods.method[dbQuery].parameters.parameter[sql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

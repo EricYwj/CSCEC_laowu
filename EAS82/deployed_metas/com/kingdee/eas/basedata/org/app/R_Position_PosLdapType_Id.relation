@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.basedata.org.app</package>
+    <name>R_Position_PosLdapType_Id</name>
+    <alias>relationship[com.kingdee.eas.basedata.org.app.R_Position_PosLdapType_Id].alias</alias>
+    <description>relationship[com.kingdee.eas.basedata.org.app.R_Position_PosLdapType_Id].description</description>
+    <userDefined>false</userDefined>
+    <type>Association</type>
+    <clientCardinality>0..*</clientCardinality>
+    <supplierCardinality>1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.basedata.org.app" />
+        <key name="name" value="Position" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.hr.base.app" />
+        <key name="name" value="PositionTypeLdap" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.basedata.org.app.R_Position_PosLdapType_Id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="职位公有属性关联" />
+            <lang locale="zh_HK" value="職位公有屬性關聯" />
+            <lang locale="zh_TW" value="職位公有屬性關聯" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.basedata.org.app.R_Position_PosLdapType_Id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+
